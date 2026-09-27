@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BCI Census: people living with implanted brain-computer interfaces</title>
+<meta name="description" content="At least 53 people are verified to be living with an implanted brain-computer interface. Every number has a source. Updated weekly.">
+<meta property="og:title" content="BCI Census">
+<meta property="og:description" content="At least 53 people are verified to be living with an implanted brain-computer interface. Every number has a source. Updated weekly.">
+<meta property="og:url" content="https://jikjii.github.io/bci-census/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="BCI Census">
+<meta name="twitter:description" content="At least 53 people are verified to be living with an implanted brain-computer interface. Every number has a source. Updated weekly.">
+<meta name="twitter:site" content="@SiegeGrell">
+<style>
+:root {
+  color-scheme: light;
+  --page: #f9f9f7; --surface: #fcfcfb; --ink: #0b0b0b; --ink-2: #52514e; --muted: #898781;
+  --grid: #e1e0d9; --axis: #c3c2b7; --border: rgba(11,11,11,0.10); --bar: #2a78d6; --wash: rgba(42,120,214,0.10);
+}
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-theme="light"])) {
+    color-scheme: dark;
+    --page: #0d0d0d; --surface: #1a1a19; --ink: #ffffff; --ink-2: #c3c2b7; --muted: #898781;
+    --grid: #2c2c2a; --axis: #383835; --border: rgba(255,255,255,0.10); --bar: #3987e5; --wash: rgba(57,135,229,0.14);
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --page: #0d0d0d; --surface: #1a1a19; --ink: #ffffff; --ink-2: #c3c2b7; --muted: #898781;
+  --grid: #2c2c2a; --axis: #383835; --border: rgba(255,255,255,0.10); --bar: #3987e5; --wash: rgba(57,135,229,0.14);
+}
+* { box-sizing: border-box; }
+html { background: var(--page); }
+body { margin: 0; background: var(--page); color: var(--ink); font: 16px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif; }
+a { color: var(--ink); text-decoration-color: var(--axis); text-underline-offset: 2px; }
+a:hover { text-decoration-color: var(--ink); }
+.wrap { max-width: 1040px; margin: 0 auto; padding: 0 16px 64px; }
+header.top { display: flex; flex-wrap: wrap; gap: 8px 24px; align-items: baseline; justify-content: space-between; padding: 24px 0 8px; }
+.brand { font-weight: 600; font-size: 18px; letter-spacing: -0.01em; }
+nav { display: flex; flex-wrap: wrap; gap: 4px 16px; }
+nav a { color: var(--ink-2); text-decoration: none; font-size: 14px; white-space: nowrap; }
+nav a:hover { color: var(--ink); }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 24px; margin: 16px 0; }
+h1 { font-size: 20px; font-weight: 600; margin: 0 0 4px; }
+h2 { font-size: 18px; font-weight: 600; margin: 0 0 4px; }
+.sub { color: var(--ink-2); margin: 0 0 16px; font-size: 15px; }
+.hero { display: grid; grid-template-columns: auto 1fr; gap: 8px 24px; align-items: center; }
+.hero .figure { font-size: 72px; line-height: 1; font-weight: 600; letter-spacing: -0.03em; }
+.hero p { margin: 0; color: var(--ink-2); max-width: 560px; }
+.hero p strong { color: var(--ink); font-weight: 600; }
+.kpis { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; margin-top: 24px; }
+.kpi { border-top: 1px solid var(--grid); padding-top: 12px; }
+.kpi .label { color: var(--ink-2); font-size: 14px; }
+.kpi .value { font-size: 28px; font-weight: 600; letter-spacing: -0.01em; }
+.chart { position: relative; margin-top: 8px; }
+.row { display: grid; grid-template-columns: 190px 1fr; gap: 12px; align-items: center; padding: 6px 0; border-radius: 6px; outline: none; }
+.row:hover .bar, .row:focus-visible .bar { opacity: 0.8; }
+.row:focus-visible { box-shadow: 0 0 0 2px var(--axis); }
+.row .name { font-size: 14px; color: var(--ink); text-align: right; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.track { display: flex; align-items: center; gap: 8px; border-left: 1px solid var(--axis); min-height: 24px; }
+.bar { height: 20px; background: var(--bar); border-radius: 0 4px 4px 0; min-width: 2px; }
+.val { font-size: 14px; color: var(--ink-2); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.tip { position: absolute; pointer-events: none; background: var(--surface); color: var(--ink); border: 1px solid var(--border);
+  border-radius: 8px; padding: 8px 10px; font-size: 13px; box-shadow: 0 4px 16px rgba(0,0,0,0.12); max-width: 280px; display: none; z-index: 2; }
+.tip b { display: block; font-size: 16px; font-weight: 600; }
+.tip span { display: block; color: var(--ink-2); }
+.tablewrap { overflow-x: auto; margin: 0 -4px; }
+table { width: 100%; min-width: 640px; border-collapse: collapse; font-size: 14px; }
+th { text-align: left; font-weight: 600; color: var(--ink-2); border-bottom: 1px solid var(--axis); padding: 8px 6px; white-space: nowrap; }
+td { border-bottom: 1px solid var(--grid); padding: 8px 6px; vertical-align: top; }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.small { font-size: 13px; color: var(--ink-2); }
+.nowrap { white-space: nowrap; }
+.tier { display: inline-block; font-size: 12px; color: var(--ink-2); border: 1px solid var(--border); border-radius: 999px; padding: 0 7px; margin-left: 4px; white-space: nowrap; }
+ul.changes { margin: 0; padding-left: 18px; }
+ul.changes li { margin: 6px 0; }
+.empty { color: var(--ink-2); font-style: italic; }
+footer { color: var(--ink-2); font-size: 14px; padding-top: 24px; }
+@media (max-width: 720px) {
+  .hero { grid-template-columns: 1fr; }
+  .hero .figure { font-size: 60px; }
+  .kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .row { grid-template-columns: 120px 1fr; }
+  table.stack { min-width: 0; }
+  table.stack thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+  table.stack, table.stack tbody, table.stack tr, table.stack td { display: block; }
+  table.stack tr { border-bottom: 1px solid var(--grid); padding: 10px 0; }
+  table.stack td { border: 0; padding: 2px 0; text-align: left; white-space: normal; }
+  table.stack td[data-label] { position: relative; padding-left: 112px; }
+  table.stack td[data-label]::before { content: attr(data-label); position: absolute; left: 0; width: 100px;
+    color: var(--ink-2); font-size: 12px; font-weight: 600; line-height: 1.9; }
+  table.stack .hide-sm, table.stack td[data-label]:empty { display: none; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <div class="brand">BCI Census</div>
+  <nav><a href="#programs">Programs</a><a href="#changes">This week</a><a href="#trials">Trials</a><a href="#events">Approvals</a><a href="#funding">Funding</a><a href="#method">Method</a></nav>
+</header>
+
+<section class="card">
+  <div class="hero">
+    <div class="figure">53</div>
+    <p><strong>people are verified to be living with an implanted brain-computer interface</strong>, as of Sep 26, 2026.
+    This is a floor: every person counted has a source, and the true number is likely higher.
+    Other published counts run from 50 to 254; the <a href="#method">method</a> explains why.</p>
+  </div>
+  <div class="kpis">
+    <div class="kpi"><div class="label">Programs with a verified count</div><div class="value">4</div></div>
+    <div class="kpi"><div class="label">Implanted BCI trials tracked</div><div class="value">0</div></div>
+    <div class="kpi"><div class="label">Trials active or recruiting</div><div class="value">0</div></div>
+    <div class="kpi"><div class="label">Claims waiting for a source</div><div class="value">9</div></div>
+  </div>
+</section>
+
+<section class="card" id="programs">
+  <h2>Verified floor by program</h2>
+  <p class="sub">People with a chronic implant, from the most recent sourced count or ClinicalTrials.gov actual enrollment, whichever is larger. Hover or focus a bar for its source.</p>
+  <div class="chart" id="floor-chart" role="img" aria-label="Verified floor by program"><div class="row" tabindex="0" data-tip="{&quot;value&quot;: &quot;30 people&quot;, &quot;name&quot;: &quot;NeuCyber&quot;, &quot;basis&quot;: &quot;Sourced count&quot;, &quot;source&quot;: &quot;Tier C, as of Jun 15, 2026&quot;}"><div class="name">NeuCyber</div><div class="track"><div class="bar" style="width: calc(100.00% - 48px)"></div><span class="val">30</span></div></div><div class="row" tabindex="0" data-tip="{&quot;value&quot;: &quot;21 people&quot;, &quot;name&quot;: &quot;Neuralink&quot;, &quot;basis&quot;: &quot;Sourced count&quot;, &quot;source&quot;: &quot;Tier C, as of Jan 28, 2026&quot;}"><div class="name">Neuralink</div><div class="track"><div class="bar" style="width: calc(70.00% - 48px)"></div><span class="val">21</span></div></div><div class="row" tabindex="0" data-tip="{&quot;value&quot;: &quot;1 people&quot;, &quot;name&quot;: &quot;Neuracle&quot;, &quot;basis&quot;: &quot;Sourced count&quot;, &quot;source&quot;: &quot;Tier C, as of Jul 13, 2026&quot;}"><div class="name">Neuracle</div><div class="track"><div class="bar" style="width: calc(3.33% - 48px)"></div><span class="val">1</span></div></div><div class="row" tabindex="0" data-tip="{&quot;value&quot;: &quot;1 people&quot;, &quot;name&quot;: &quot;Paradromics&quot;, &quot;basis&quot;: &quot;Sourced count&quot;, &quot;source&quot;: &quot;Tier B, as of Jun 17, 2026&quot;}"><div class="name">Paradromics</div><div class="track"><div class="bar" style="width: calc(3.33% - 48px)"></div><span class="val">1</span></div></div><div class="tip" role="tooltip"></div></div>
+  <div style="height:16px"></div>
+  <div class="tablewrap"><table class="programs stack"><thead><tr><th>Program</th><th class="hide-sm">Approach</th><th>Country</th><th class="num">Verified floor</th><th>Basis</th><th class="num">Trials</th><th>Latest event</th></tr></thead><tbody><tr><td class="lead"><strong>NeuCyber</strong><div class="small">Beinao-1</div></td><td class="small hide-sm" data-label="Approach">Semi-invasive; wireless implant</td><td class="small" data-label="Country">China</td><td class="num" data-label="Verified floor">30</td><td class="small" data-label="Basis">about 30 as of Jun 15, 2026 · <a href="https://www.chinadaily.com.cn/a/202606/15/WS6a2fc5cba310986e2b460147.html" rel="noopener">China Daily</a><span class="tier" title="Press report">Tier C</span></td><td class="num" data-label="Trials">0</td><td data-label="Latest event">Registration trial under way; NeuCyber plans to apply for approval in 2027 <span class="small">(Jun 15, 2026)</span></td></tr><tr><td class="lead"><strong>Neuralink</strong><div class="small">N1 implant (&quot;Telepathy&quot;)</div></td><td class="small hide-sm" data-label="Approach">Intracortical; flexible threads placed by a surgical robot</td><td class="small" data-label="Country">United States</td><td class="num" data-label="Verified floor">21</td><td class="small" data-label="Basis">21 as of Jan 28, 2026 · <a href="https://finance.yahoo.com/news/elon-musks-neuralink-says-21-182925000.html" rel="noopener">Reuters via Yahoo Finance</a><span class="tier" title="Press report">Tier C</span></td><td class="num" data-label="Trials">0</td><td data-label="Latest event">FDA Breakthrough Device designation for speech restoration <span class="small">(May 1, 2025)</span></td></tr><tr><td class="lead"><strong>Neuracle</strong><div class="small">NEO</div></td><td class="small hide-sm" data-label="Approach">Semi-invasive; epidural electrodes with a wireless implant</td><td class="small" data-label="Country">China</td><td class="num" data-label="Verified floor">1</td><td class="small" data-label="Basis">at least 1 as of Jul 13, 2026 · <a href="https://insidebci.com/news/2026-07-16-neuracle-neo-shanghai-huashan-first-commercial-invasive-bci-motor-restoration/" rel="noopener">Inside BCI</a><span class="tier" title="Press report">Tier C</span></td><td class="num" data-label="Trials">0</td><td data-label="Latest event">First commercial implant of the NEO, at Huashan Hospital in Shanghai <span class="small">(Jul 13, 2026)</span></td></tr><tr><td class="lead"><strong>Paradromics</strong><div class="small">Connexus</div></td><td class="small hide-sm" data-label="Approach">Intracortical; high-channel-count array</td><td class="small" data-label="Country">United States</td><td class="num" data-label="Verified floor">1</td><td class="small" data-label="Basis">at least 1 as of Jun 17, 2026 · <a href="https://paradromics.com/news/" rel="noopener">Paradromics news</a><span class="tier" title="Company statement">Tier B</span></td><td class="num" data-label="Trials">0</td><td data-label="Latest event">FDA approves the Connect-One clinical study (investigational device exemption) for Connexus <span class="small">(Nov 20, 2025)</span></td></tr><tr><td class="lead"><strong>Axoft</strong><div class="small">Soft intracortical implant</div></td><td class="small hide-sm" data-label="Approach">Intracortical; soft polymer electrodes</td><td class="small" data-label="Country">United States</td><td class="num" data-label="Verified floor">—</td><td class="small" data-label="Basis">No sourced count yet</td><td class="num" data-label="Trials">0</td><td data-label="Latest event">—</td></tr><tr><td class="lead"><strong>Blackrock arrays</strong><div class="small">Utah array / NeuroPort</div></td><td class="small hide-sm" data-label="Approach">Intracortical microelectrode arrays</td><td class="small" data-label="Country">United States</td><td class="num" data-label="Verified floor">—</td><td class="small" data-label="Basis">No sourced count yet</td><td class="num" data-label="Trials">0</td><td data-label="Latest event">—</td></tr><tr><td class="lead"><strong>BrainGate</strong><div class="small">BrainGate neural interface (Utah arrays)</div></td><td class="small hide-sm" data-label="Approach">Intracortical microelectrode arrays</td><td class="small" data-label="Country">United States</td><td class="num" data-label="Verified floor">—</td><td class="small" data-label="Basis">No sourced count yet</td><td class="num" data-label="Trials">0</td><td data-label="Latest event">—</td></tr><tr><td class="lead"><strong>CorTec Brain Interchange</strong><div class="small">Brain Interchange</div></td><td class="small hide-sm" data-label="Approach">Implanted electrodes that record and stimulate</td><td class="small" data-label="Country">Germany</td><td class="num" data-label="Verified floor">—</td><td class="small" data-label="Basis">No sourced count yet</td><td class="num" data-label="Trials">0</td><td data-label="Latest event">—</td></tr><tr><td class="lead"><strong>Onward ARC-BCI</strong><div class="small">ARC-BCI with the WIMAGINE implant</div></td><td class="small hide-sm" data-label="Approach">Epidural electrode implant linked to spinal cord stimulation</td><td class="small" data-label="Country">Netherlands</td><td class="num" data-label="Verified floor">—</td><td class="small" data-label="Basis">No sourced count yet</td><td class="num" data-label="Trials">0</td><td data-label="Latest event">—</td></tr><tr><td class="lead"><strong>Precision Neuroscience</strong><div class="small">Layer 7 Cortical Interface</div></td><td class="small hide-sm" data-label="Approach">Thin-film electrodes on the brain&#x27;s surface</td><td class="small" data-label="Country">United States</td><td class="num" data-label="Verified floor">—</td><td class="small" data-label="Basis">No sourced count yet</td><td class="num" data-label="Trials">0</td><td data-label="Latest event">FDA 510(k) clearance K242618 for the Layer 7-T cortical interface, for implants of up to 30 days (announced Apr 17, 2025) <span class="small">(Mar 30, 2025)</span></td></tr><tr><td class="lead"><strong>StairMed</strong><div class="small">Flexible intracortical implant</div></td><td class="small hide-sm" data-label="Approach">Intracortical; ultra-flexible electrodes</td><td class="small" data-label="Country">China</td><td class="num" data-label="Verified floor">—</td><td class="small" data-label="Basis">No sourced count yet</td><td class="num" data-label="Trials">0</td><td data-label="Latest event">—</td></tr><tr><td class="lead"><strong>Synchron</strong><div class="small">Stentrode</div></td><td class="small hide-sm" data-label="Approach">Endovascular; electrode array delivered through a blood vessel</td><td class="small" data-label="Country">United States</td><td class="num" data-label="Verified floor">—</td><td class="small" data-label="Basis">No sourced count yet</td><td class="num" data-label="Trials">0</td><td data-label="Latest event">—</td></tr></tbody></table></div>
+</section>
+
+<section class="card" id="changes">
+  <h2>What changed this week</h2>
+  <p class="sub">Compared with the previous weekly snapshot.</p>
+  <p class="empty">First edition. Next week this section lists every change since today.</p>
+</section>
+
+<section class="card" id="trials">
+  <h2>Implanted BCI trials</h2>
+  <p class="sub">From ClinicalTrials.gov. Only actual enrollment counts toward the floor; estimated enrollment is a target. <a href="data/trials_all.csv">Every trial reviewed, with the reason it was kept or excluded</a>.</p>
+  <p class="empty">Trials appear after the first live pull from ClinicalTrials.gov, which runs on GitHub every Monday.</p>
+</section>
+
+<section class="card" id="events">
+  <h2>Approvals, designations and policy</h2>
+  <p class="sub">Curated events plus FDA decisions pulled from openFDA.</p>
+  <div class="tablewrap"><table class="stack"><thead><tr><th>Date</th><th>Who</th><th>Event</th></tr></thead><tbody><tr><td class="small" data-label="Date">Jul 13, 2026</td><td data-label="Who">Neuracle</td><td data-label="Event"><a href="https://insidebci.com/news/2026-07-16-neuracle-neo-shanghai-huashan-first-commercial-invasive-bci-motor-restoration/" rel="noopener">First commercial implant of the NEO, at Huashan Hospital in Shanghai</a><span class="tier" title="Press report">Tier C</span></td></tr><tr><td class="small" data-label="Date">Jun 15, 2026</td><td data-label="Who">NeuCyber</td><td data-label="Event"><a href="https://www.chinadaily.com.cn/a/202606/15/WS6a2fc5cba310986e2b460147.html" rel="noopener">Registration trial under way; NeuCyber plans to apply for approval in 2027</a><span class="tier" title="Press report">Tier C</span></td></tr><tr><td class="small" data-label="Date">Apr 23, 2026</td><td data-label="Who">Policy</td><td data-label="Event"><a href="https://www.federalregister.gov/public-inspection/2026-16368/medicare-program-regulatory-alignment-for-predictable-and-immediate-device-coverage-pathway" rel="noopener">CMS and FDA announce the RAPID coverage pathway for Breakthrough devices; notice published Aug 11, 2026, comments due Oct 13, 2026</a><span class="tier" title="Registry or paper">Tier A</span></td></tr><tr><td class="small" data-label="Date">Mar 13, 2026</td><td data-label="Who">Policy</td><td data-label="Event"><a href="https://www.news.cn/politics/20260313/085af5de5a4b4268aa7d87d90817df2f/c.html" rel="noopener">China&#x27;s 15th Five-Year Plan lists brain-computer interfaces among &quot;future industries&quot;</a><span class="tier" title="Press report">Tier C</span></td></tr><tr><td class="small" data-label="Date">Mar 13, 2026</td><td data-label="Who">Neuracle</td><td data-label="Event"><a href="https://www.fiercebiotech.com/medtech/china-approves-first-brain-computer-interface-implant-paralyzed-patients-sector-heats" rel="noopener">NMPA approves the NEO implant, the first invasive BCI cleared for commercial sale</a><span class="tier" title="Press report">Tier C</span></td></tr><tr><td class="small" data-label="Date">Nov 20, 2025</td><td data-label="Who">Paradromics</td><td data-label="Event"><a href="https://paradromics.com/news/paradromics-receives-fda-approval-for-the-connect-one-clinical-study-with-the-connexus-brain-computer-interface/" rel="noopener">FDA approves the Connect-One clinical study (investigational device exemption) for Connexus</a><span class="tier" title="Company statement">Tier B</span></td></tr><tr><td class="small" data-label="Date">May 13, 2025</td><td data-label="Who">Ecosystem</td><td data-label="Event"><a href="https://www.apple.com/newsroom/2025/05/apple-unveils-powerful-accessibility-features-coming-later-this-year/" rel="noopener">Apple announces a Brain-Computer Interface Human Interface Device protocol for iOS, iPadOS and visionOS</a><span class="tier" title="Company statement">Tier B</span></td></tr><tr><td class="small" data-label="Date">May 1, 2025</td><td data-label="Who">Neuralink</td><td data-label="Event"><a href="https://www.massdevice.com/neuralink-fda-breakthrough-nod-speech-impairment/" rel="noopener">FDA Breakthrough Device designation for speech restoration</a><span class="tier" title="Press report">Tier C</span></td></tr><tr><td class="small" data-label="Date">Mar 30, 2025</td><td data-label="Who">Precision Neuroscience</td><td data-label="Event"><a href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242618" rel="noopener">FDA 510(k) clearance K242618 for the Layer 7-T cortical interface, for implants of up to 30 days (announced Apr 17, 2025)</a><span class="tier" title="Registry or paper">Tier A</span></td></tr><tr><td class="small" data-label="Date">Mar 12, 2025</td><td data-label="Who">Policy</td><td data-label="Event"><a href="https://www.nhsa.gov.cn/art/2025/3/12/art_14_15946.html" rel="noopener">China&#x27;s national health insurer creates billing items for BCI procedures</a><span class="tier" title="Registry or paper">Tier A</span></td></tr></tbody></table></div>
+</section>
+
+<section class="card" id="funding">
+  <h2>Funding and SEC filings</h2>
+  <p class="sub">Announced rounds plus Form D filings pulled from SEC EDGAR.</p>
+  <div class="tablewrap"><table class="stack"><thead><tr><th>Date</th><th>Who</th><th class="num">Amount</th><th>Event</th></tr></thead><tbody><tr><td class="small" data-label="Date">Sep 24, 2026</td><td data-label="Who">Precision Neuroscience</td><td class="num" data-label="Amount">$250.0M</td><td data-label="Event"><a href="https://www.globenewswire.com/news-release/2026/09/24/3368254/0/en/precision-neuroscience-closes-oversubscribed-250m-series-d-led-by-pershing-square-inc-the-ackman-oxman-institute-and-a-leading-life-sciences-investment-fund.html" rel="noopener">$250M Series D led by Pershing Square, the Ackman Oxman Institute and a life-sciences fund; about $430M raised in total</a><span class="tier" title="Company statement">Tier B</span></td></tr><tr><td class="small" data-label="Date">Jun 11, 2026</td><td data-label="Who">Neuracle</td><td class="num" data-label="Amount">—</td><td data-label="Event"><a href="https://finance.eastmoney.com/a/202606123769082449.html" rel="noopener">Shanghai STAR Market IPO filing accepted, seeking RMB 2.5B</a><span class="tier" title="Press report">Tier C</span></td></tr><tr><td class="small" data-label="Date">Apr 29, 2026</td><td data-label="Who">Axoft</td><td class="num" data-label="Amount">$55.0M</td><td data-label="Event"><a href="https://www.businesswire.com/news/home/20260429285106/en/Axoft-Secures-$55M-Series-A-to-Advance-Clinical-Trials-Globally-for-its-Bio-Inspired-Implantable-Brain-Computer-Interface" rel="noopener">$55M Series A led by C.P. Group</a><span class="tier" title="Company statement">Tier B</span></td></tr><tr><td class="small" data-label="Date">Mar 2026</td><td data-label="Who">StairMed</td><td class="num" data-label="Amount">$72.0M</td><td data-label="Event"><a href="https://finance.yahoo.com/sectors/healthcare/articles/stairmed-secures-rmb-500-million-064100974.html" rel="noopener">RMB 500M (about $72M) round led by Alibaba, with Tencent</a><span class="tier" title="Press report">Tier C</span></td></tr><tr><td class="small" data-label="Date">Nov 6, 2025</td><td data-label="Who">Synchron</td><td class="num" data-label="Amount">$200.0M</td><td data-label="Event"><a href="https://www.businesswire.com/news/home/20251106150841/en/Synchron-Raises-$200-Million-Series-D-to-Advance-Brain-Computer-Interface-Technology" rel="noopener">$200M Series D led by Double Point Ventures; $345M raised in total</a><span class="tier" title="Company statement">Tier B</span></td></tr><tr><td class="small" data-label="Date">Jun 2, 2025</td><td data-label="Who">Neuralink</td><td class="num" data-label="Amount">$650.0M</td><td data-label="Event"><a href="https://siliconangle.com/2025/06/02/neuralink-raises-another-650m-reported-9b-pre-money-valuation/" rel="noopener">$650M Series E at a reported $9B pre-money valuation; investors include Sequoia, Thrive and Lightspeed</a><span class="tier" title="Press report">Tier C</span></td></tr><tr><td class="small" data-label="Date">Apr 29, 2024</td><td data-label="Who">Blackrock arrays</td><td class="num" data-label="Amount">$200.0M</td><td data-label="Event"><a href="https://www.forbes.com/sites/naveenrao/2024/04/30/what-200-million-in-crypto-cash-means-for-blackrock-neurotech/" rel="noopener">Tether pays $200M for a majority stake (about $350M valuation)</a><span class="tier" title="Press report">Tier C</span></td></tr></tbody></table></div>
+</section>
+
+<section class="card" id="method">
+  <h2>Why counts disagree, and how this one works</h2>
+  <p>Published counts mix three different numbers: people with permanent implants, people with temporary implants placed during surgery, and trial enrollment targets. They also include or leave out China, and rarely subtract devices that were removed. The census keeps these apart and counts only permanent implants with a source.</p>
+  <p>Each program's floor is the larger of its latest sourced count and the actual enrollment of its permanent-implant trials that are still following participants or ended in the last five years. Older trials are listed but not counted, because their participants may have had devices removed. People are counted unless a source reports a removal or death.</p>
+  <p>Each fact has a tier: <strong>A</strong> registry or peer-reviewed paper, <strong>B</strong> company statement, <strong>C</strong> credible press report. Aggregator figures (<strong>D</strong>) are shown below for context and never counted. Full rules: <a href="https://github.com/jikjii/bci-census/blob/main/METHODOLOGY.md">METHODOLOGY.md</a>.</p>
+  <h2 style="margin-top:20px">Other published counts</h2>
+  <div class="tablewrap"><table class="stack"><thead><tr><th>Source</th><th class="num">Count</th><th>As of</th><th>Note</th></tr></thead><tbody><tr><td class="lead"><a href="https://www.neurofounders.co/articles/how-many-people-live-with-an-implanted-bci-today" rel="noopener">Neurofounders</a></td><td class="num" data-label="Count">at least 50</td><td class="small" data-label="As of">Feb 12, 2026</td><td class="small" data-label="Note">Stated as &quot;at least fifty, nearing one hundred&quot; people living with chronic implanted BCIs.</td></tr><tr><td class="lead"><a href="https://bciintel.com/bci-implant-count/" rel="noopener">BCI Intel count page</a></td><td class="num" data-label="Count">about 107</td><td class="small" data-label="As of">May 2026</td><td class="small" data-label="Note">About 107 on the site&#x27;s count page when checked; conflicts with the same site&#x27;s homepage.</td></tr><tr><td class="lead"><a href="https://bciintel.com/" rel="noopener">BCI Intel homepage</a></td><td class="num" data-label="Count">254</td><td class="small" data-label="As of">Sep 2026</td><td class="small" data-label="Note">Aggregate shown on the homepage.</td></tr></tbody></table></div>
+  <h2 style="margin-top:20px">Claims waiting for a source</h2>
+  <p class="sub">Have one? <a href="https://github.com/jikjii/bci-census/issues/new">Open an issue</a> with the link and it gets credited.</p>
+  <ul class="changes"><li><strong>Neuralink:</strong> Neuralink&#x27;s implant count after January 2026<div class="small">Company updates and Reuters coverage since January 2026. Counts of 26 to 27 circulate on fan blogs only.</div></li><li><strong>BrainGate:</strong> Cumulative people implanted in the BrainGate studies<div class="small">BrainGate publications. The registry cannot help yet: BrainGate2 (NCT00912041) is still recruiting and lists only estimated enrollment.</div></li><li><strong>Academic and other:</strong> Implants at Pittsburgh, Caltech, UCSF, Johns Hopkins, UMC Utrecht and other academic programs<div class="small">Peer-reviewed papers and trial records; watch for people counted twice across programs.</div></li><li><strong>Precision Neuroscience:</strong> Precision&#x27;s count of temporary implant procedures (reported as more than 100)<div class="small">Check the exact wording in Precision&#x27;s Sept 24, 2026 Series D release.</div></li><li><strong>Axoft:</strong> Whether Axoft&#x27;s 11 first-in-human implants were temporary or permanent<div class="small">ClinicalTrials.gov NCT06673264 (5 people, Panama) inserted the probe during already scheduled brain surgery, so those were temporary. The other 6 need a source.</div></li><li><strong>StairMed:</strong> StairMed&#x27;s first-in-human implants<div class="small">Company releases and Chinese press.</div></li><li><strong>Onward ARC-BCI:</strong> People implanted with Onward&#x27;s ARC-BCI system<div class="small">Onward, EPFL and Clinatec releases and papers. EPFL&#x27;s four ARC-BSI and STIMO-BSI registry records list only estimated enrollment.</div></li><li><strong>CorTec Brain Interchange:</strong> People implanted with CorTec&#x27;s Brain Interchange for communication or movement<div class="small">Company releases and papers. Its registry records so far (Mayo Clinic, NCT05439655 and NCT06898138) use it for epilepsy, which is out of scope.</div></li><li><strong>Academic and other:</strong> Reported removals (explants) or deaths among BCI recipients<div class="small">Publications, company statements and FDA MAUDE adverse-event reports.</div></li></ul>
+</section>
+
+<footer>
+  Data: <a href="data/census.json">census.json</a> · <a href="data/programs.csv">programs.csv</a> · <a href="data/trials.csv">trials.csv</a> · <a href="data/events.csv">events.csv</a> · <a href="data/funding.csv">funding.csv</a>.
+  Code on <a href="https://github.com/jikjii/bci-census">GitHub</a> (MIT); data CC BY 4.0. Weekly updates on X: <a href="https://x.com/SiegeGrell">@SiegeGrell</a>.
+  Sources: ClinicalTrials.gov, openFDA and SEC EDGAR, which do not endorse this project. No personal data is collected or published. Not medical advice.
+</footer>
+</div>
+<script>
+(function () {
+  var chart = document.getElementById('floor-chart');
+  if (!chart) return;
+  var tip = chart.querySelector('.tip');
+  function show(row, x, y) {
+    var d = JSON.parse(row.getAttribute('data-tip'));
+    tip.textContent = '';
+    var b = document.createElement('b'); b.textContent = d.value; tip.appendChild(b);
+    [d.name, d.basis, d.source].forEach(function (t) {
+      if (!t) return; var s = document.createElement('span'); s.textContent = t; tip.appendChild(s);
+    });
+    tip.style.display = 'block';
+    var box = chart.getBoundingClientRect();
+    var left = Math.min(x - box.left + 12, box.width - tip.offsetWidth);
+    tip.style.left = Math.max(0, left) + 'px';
+    tip.style.top = (y - box.top + 12) + 'px';
+  }
+  function hide() { tip.style.display = 'none'; }
+  chart.querySelectorAll('.row').forEach(function (row) {
+    row.addEventListener('pointermove', function (e) { show(row, e.clientX, e.clientY); });
+    row.addEventListener('pointerleave', hide);
+    row.addEventListener('focus', function () {
+      var r = row.getBoundingClientRect(); show(row, r.left + r.width / 2, r.top + r.height / 2);
+    });
+    row.addEventListener('blur', hide);
+  });
+})();
+</script>
+</body>
+</html>

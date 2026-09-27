@@ -1,0 +1,13 @@
+{
+  "meta": {"results": {"total": 1}},
+  "results": [
+    {
+      "k_number": "K000001",
+      "applicant": "Precision Neuroscience Corporation",
+      "device_name": "Layer 7 Cortical Interface",
+      "decision_date": "2025-04-11",
+      "decision_description": "Substantially Equivalent",
+      "product_code": "GYC"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+  <schemaVersion>X0708</schemaVersion>
+  <submissionType>D</submissionType>
+  <primaryIssuer>
+    <cik>0009999999</cik>
+    <entityName>Example Neuro Inc.</entityName>
+    <jurisdictionOfInc>DELAWARE</jurisdictionOfInc>
+  </primaryIssuer>
+  <relatedPersonsList>
+    <relatedPersonInfo>
+      <relatedPersonName><firstName>Ada</firstName><lastName>Example</lastName></relatedPersonName>
+      <relatedPersonRelationshipList><relationship>Executive Officer</relationship><relationship>Director</relationship></relatedPersonRelationshipList>
+    </relatedPersonInfo>
+  </relatedPersonsList>
+  <offeringData>
+    <industryGroup><industryGroupType>Other Health Care</industryGroupType></industryGroup>
+    <typeOfFiling>
+      <newOrAmendment><isAmendment>false</isAmendment></newOrAmendment>
+      <dateOfFirstSale><value>2026-03-02</value></dateOfFirstSale>
+    </typeOfFiling>
+    <typesOfSecuritiesOffered>
+      <isEquityType>true</isEquityType>
+      <isOptionToAcquireType>true</isOptionToAcquireType>
+    </typesOfSecuritiesOffered>
+    <offeringSalesAmounts>
+      <totalOfferingAmount>60000000</totalOfferingAmount>
+      <totalAmountSold>55000000</totalAmountSold>
+      <totalRemaining>5000000</totalRemaining>
+    </offeringSalesAmounts>
+    <investors>
+      <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+      <totalNumberAlreadyInvested>14</totalNumberAlreadyInvested>
+    </investors>
+  </offeringData>
+</edgarSubmission>

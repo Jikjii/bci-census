@@ -1,0 +1,65 @@
+name: weekly-census
+
+on:
+  schedule:
+    - cron: "17 12 * * 1"   # Mondays 12:17 UTC (8:17 a.m. New York in daylight time)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: weekly-census
+  cancel-in-progress: false
+
+jobs:
+  census:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install
+        run: pip install -r requirements.txt
+
+      - name: Test
+        run: python -m pytest -q
+
+      - name: Build the census
+        env:
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+          OPENFDA_API_KEY: ${{ secrets.OPENFDA_API_KEY }}
+        run: python -m census build
+
+      - name: Commit data, site and X draft
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data docs posts
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+            exit 0
+          fi
+          git commit -m "Census update $(date -u +%F)"
+          git push || (git pull --rebase && git push)
+
+      - name: Open (or update) an issue with this week's X draft
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          draft="posts/$(date -u +%F).md"
+          [ -f "$draft" ] || exit 0
+          title="X draft for $(date -u +%F)"
+          existing=$(gh issue list --state open --search "\"$title\" in:title" --json number --jq '.[0].number // empty')
+          if [ -n "$existing" ]; then
+            gh issue edit "$existing" --body-file "$draft"
+          else
+            gh issue create --title "$title" --body-file "$draft" --label x-draft \
+              || gh issue create --title "$title" --body-file "$draft"
+          fi

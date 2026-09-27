@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+  <feed xmlns="http://www.w3.org/2005/Atom">
+    <author>
+      <email>webmaster@sec.gov</email>
+      <name>Webmaster</name>
+    </author>
+    <company-info>
+      <cik>0001708503</cik>
+      <conformed-name>Neuralink Corp.</conformed-name>
+    </company-info>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="D" />
+      <content type="text/xml">
+        <accession-number>0001708503-25-000003</accession-number>
+        <act>33</act>
+        <file-number>021-548814</file-number>
+        <filing-date>2025-06-12</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1708503/000170850325000003/0001708503-25-000003-index.htm</filing-href>
+        <filing-type>D</filing-type>
+        <form-name>Notice of Exempt Offering of Securities</form-name>
+        <items-desc>item 06b</items-desc>
+        <size>8 KB</size>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001708503-25-000003</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1708503/000170850325000003/0001708503-25-000003-index.htm" rel="alternate" type="text/html" />
+      <summary type="html"> &lt;b&gt;Filed:&lt;/b&gt; 2025-06-12 &lt;b&gt;AccNo:&lt;/b&gt; 0001708503-25-000003 &lt;b&gt;Size:&lt;/b&gt; 8 KB</summary>
+      <title>D  - Notice of Exempt Offering of Securities</title>
+      <updated>2025-06-12T16:16:44-04:00</updated>
+    </entry>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="D/A" />
+      <content type="text/xml">
+        <accession-number>0001708503-23-000002</accession-number>
+        <act>33</act>
+        <amend>[Amend]</amend>
+        <filing-date>2023-11-22</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/1708503/000170850323000002/0001708503-23-000002-index.htm</filing-href>
+        <filing-type>D/A</filing-type>
+        <form-name>Notice of Exempt Offering of Securities</form-name>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0001708503-23-000002</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/1708503/000170850323000002/0001708503-23-000002-index.htm" rel="alternate" type="text/html" />
+      <title>D/A  - Notice of Exempt Offering of Securities [Amend]</title>
+      <updated>2023-11-22T12:01:10-05:00</updated>
+    </entry>
+  </feed>

@@ -1,0 +1,65 @@
+# Claims that need a usable source before they can count. Close an item by adding the
+# sourced fact to implant_counts.yaml (or another file) and deleting it here.
+
+- id: neuralink-latest
+  program: neuralink
+  claim: Neuralink's implant count after January 2026
+  lead: Company updates and Reuters coverage since January 2026. Counts of 26 to 27 circulate on fan blogs only.
+  added_on: 2026-09-26
+
+- id: braingate-cumulative
+  program: braingate
+  claim: Cumulative people implanted in the BrainGate studies
+  lead: >-
+    BrainGate publications. The registry cannot help yet: BrainGate2 (NCT00912041) is still recruiting and
+    lists only estimated enrollment.
+  added_on: 2026-09-26
+
+- id: academic-intracortical
+  program: academic-other
+  claim: Implants at Pittsburgh, Caltech, UCSF, Johns Hopkins, UMC Utrecht and other academic programs
+  lead: Peer-reviewed papers and trial records; watch for people counted twice across programs.
+  added_on: 2026-09-26
+
+- id: precision-acute
+  program: precision
+  claim: Precision's count of temporary implant procedures (reported as more than 100)
+  lead: Check the exact wording in Precision's Sept 24, 2026 Series D release.
+  url: https://www.globenewswire.com/news-release/2026/09/24/3368254/0/en/precision-neuroscience-closes-oversubscribed-250m-series-d-led-by-pershing-square-inc-the-ackman-oxman-institute-and-a-leading-life-sciences-investment-fund.html
+  added_on: 2026-09-26
+
+- id: axoft-duration
+  program: axoft
+  claim: Whether Axoft's 11 first-in-human implants were temporary or permanent
+  lead: >-
+    ClinicalTrials.gov NCT06673264 (5 people, Panama) inserted the probe during already scheduled brain
+    surgery, so those were temporary. The other 6 need a source.
+  added_on: 2026-09-26
+
+- id: stairmed-implants
+  program: stairmed
+  claim: StairMed's first-in-human implants
+  lead: Company releases and Chinese press.
+  added_on: 2026-09-26
+
+- id: onward-arcbci
+  program: onward
+  claim: People implanted with Onward's ARC-BCI system
+  lead: >-
+    Onward, EPFL and Clinatec releases and papers. EPFL's four ARC-BSI and STIMO-BSI registry records list only
+    estimated enrollment.
+  added_on: 2026-09-26
+
+- id: cortec-implants
+  program: cortec
+  claim: People implanted with CorTec's Brain Interchange for communication or movement
+  lead: >-
+    Company releases and papers. Its registry records so far (Mayo Clinic, NCT05439655 and NCT06898138) use it
+    for epilepsy, which is out of scope.
+  added_on: 2026-09-26
+
+- id: removals
+  program: academic-other
+  claim: Reported removals (explants) or deaths among BCI recipients
+  lead: Publications, company statements and FDA MAUDE adverse-event reports.
+  added_on: 2026-09-26

@@ -1,0 +1,31 @@
+# Other published counts, shown for context and never added to the floor.
+
+- id: neurofounders-2026-02-12
+  label: Neurofounders
+  value: 50
+  qualifier: at_least
+  as_of: 2026-02-12
+  tier: D
+  source_url: https://www.neurofounders.co/articles/how-many-people-live-with-an-implanted-bci-today
+  note: Stated as "at least fifty, nearing one hundred" people living with chronic implanted BCIs.
+  checked_on: 2026-09-26
+
+- id: bciintel-count-page-2026-05
+  label: BCI Intel count page
+  value: 107
+  qualifier: about
+  as_of: 2026-05
+  tier: D
+  source_url: https://bciintel.com/bci-implant-count/
+  note: About 107 on the site's count page when checked; conflicts with the same site's homepage.
+  checked_on: 2026-09-26
+
+- id: bciintel-home-2026-09
+  label: BCI Intel homepage
+  value: 254
+  qualifier: exact
+  as_of: 2026-09
+  tier: D
+  source_url: https://bciintel.com/
+  note: Aggregate shown on the homepage.
+  checked_on: 2026-09-26

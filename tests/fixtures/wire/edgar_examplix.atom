@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+  <feed xmlns="http://www.w3.org/2005/Atom">
+    <company-info><cik>0009999999</cik><conformed-name>Examplix Inc.</conformed-name></company-info>
+    <entry>
+      <category label="form type" scheme="https://www.sec.gov/" term="D" />
+      <content type="text/xml">
+        <accession-number>0009999999-26-000001</accession-number>
+        <filing-date>2026-09-26</filing-date>
+        <filing-href>https://www.sec.gov/Archives/edgar/data/9999999/000999999926000001/0009999999-26-000001-index.htm</filing-href>
+        <filing-type>D</filing-type>
+        <form-name>Notice of Exempt Offering of Securities</form-name>
+      </content>
+      <id>urn:tag:sec.gov,2008:accession-number=0009999999-26-000001</id>
+      <link href="https://www.sec.gov/Archives/edgar/data/9999999/000999999926000001/0009999999-26-000001-index.htm" rel="alternate" type="text/html" />
+      <title>D  - Notice of Exempt Offering of Securities</title>
+      <updated>2026-09-26T16:02:11-04:00</updated>
+    </entry>
+  </feed>

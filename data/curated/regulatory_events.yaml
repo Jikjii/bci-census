@@ -1,0 +1,84 @@
+# Approvals, designations and policy events the databases don't hold (or hold late).
+# program can also be "ecosystem" or "policy" for events that aren't about one device.
+
+- id: precision-510k-k242618
+  program: precision
+  date: 2025-03-30
+  event: FDA 510(k) clearance K242618 for the Layer 7-T cortical interface, for implants of up to 30 days (announced Apr 17, 2025)
+  tier: A
+  fda_id: K242618  # the openFDA pull finds the same decision; this entry replaces it on the site
+  source_url: https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242618
+  company_source_url: https://www.precisionneuro.io/articles/company-news/precision-neuroscience-receives-fda-clearance-for-high-resolution-cortical-electrode-array
+  checked_on: 2026-09-26
+
+- id: neuralink-breakthrough-speech-2025-05-01
+  program: neuralink
+  date: 2025-05-01
+  event: FDA Breakthrough Device designation for speech restoration
+  tier: C
+  source_url: https://www.massdevice.com/neuralink-fda-breakthrough-nod-speech-impairment/
+  checked_on: 2026-09-26
+
+- id: apple-bci-hid-2025-05-13
+  program: ecosystem
+  date: 2025-05-13
+  event: Apple announces a Brain-Computer Interface Human Interface Device protocol for iOS, iPadOS and visionOS
+  tier: B
+  source_url: https://www.apple.com/newsroom/2025/05/apple-unveils-powerful-accessibility-features-coming-later-this-year/
+  checked_on: 2026-09-26
+
+- id: paradromics-ide-2025-11-20
+  program: paradromics
+  date: 2025-11-20
+  event: FDA approves the Connect-One clinical study (investigational device exemption) for Connexus
+  tier: B
+  source_url: https://paradromics.com/news/paradromics-receives-fda-approval-for-the-connect-one-clinical-study-with-the-connexus-brain-computer-interface/
+  checked_on: 2026-09-26
+
+- id: china-nhsa-billing-2025-03-12
+  program: policy
+  date: 2025-03-12
+  event: China's national health insurer creates billing items for BCI procedures
+  tier: A
+  source_url: https://www.nhsa.gov.cn/art/2025/3/12/art_14_15946.html
+  checked_on: 2026-09-26
+
+- id: china-15th-five-year-plan-2026-03-13
+  program: policy
+  date: 2026-03-13
+  event: China's 15th Five-Year Plan lists brain-computer interfaces among "future industries"
+  tier: C
+  source_url: https://www.news.cn/politics/20260313/085af5de5a4b4268aa7d87d90817df2f/c.html
+  checked_on: 2026-09-26
+
+- id: neuracle-nmpa-2026-03-13
+  program: neuracle
+  date: 2026-03-13
+  event: NMPA approves the NEO implant, the first invasive BCI cleared for commercial sale
+  tier: C
+  source_url: https://www.fiercebiotech.com/medtech/china-approves-first-brain-computer-interface-implant-paralyzed-patients-sector-heats
+  checked_on: 2026-09-26
+
+- id: cms-fda-rapid-2026-04-23
+  program: policy
+  date: 2026-04-23
+  event: CMS and FDA announce the RAPID coverage pathway for Breakthrough devices; notice published Aug 11, 2026, comments due Oct 13, 2026
+  tier: A
+  source_url: https://www.federalregister.gov/public-inspection/2026-16368/medicare-program-regulatory-alignment-for-predictable-and-immediate-device-coverage-pathway
+  checked_on: 2026-09-26
+
+- id: neucyber-registration-trial-2026-06-15
+  program: neucyber
+  date: 2026-06-15
+  event: Registration trial under way; NeuCyber plans to apply for approval in 2027
+  tier: C
+  source_url: https://www.chinadaily.com.cn/a/202606/15/WS6a2fc5cba310986e2b460147.html
+  checked_on: 2026-09-26
+
+- id: neuracle-first-commercial-2026-07-13
+  program: neuracle
+  date: 2026-07-13
+  event: First commercial implant of the NEO, at Huashan Hospital in Shanghai
+  tier: C
+  source_url: https://insidebci.com/news/2026-07-16-neuracle-neo-shanghai-huashan-first-commercial-invasive-bci-motor-restoration/
+  checked_on: 2026-09-26

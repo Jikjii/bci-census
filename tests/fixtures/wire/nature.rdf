@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="https://journal.example.org/rss"><title>Example Journal</title><link>https://journal.example.org</link><description>Test feed in Nature's RSS 1.0 format</description></channel>
+<item rdf:about="https://journal.example.org/articles/test-1"><title><![CDATA[A test speech neuroprosthesis study]]></title><link>https://journal.example.org/articles/test-1</link><description><![CDATA[<p>Test</p>An intracortical brain-computer interface decodes attempted speech.]]></description><dc:date>2026-09-30</dc:date></item>
+<item rdf:about="https://journal.example.org/articles/test-2"><title><![CDATA[Ocean warming and coral reefs]]></title><link>https://journal.example.org/articles/test-2</link><description><![CDATA[Corals.]]></description><dc:date>2026-09-30</dc:date></item>
+</rdf:RDF>

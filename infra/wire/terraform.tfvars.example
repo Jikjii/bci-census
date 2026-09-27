@@ -1,0 +1,31 @@
+# Copy to terraform.tfvars (Git ignores it), fill in, then:
+#   terraform init
+#   terraform apply
+
+# SEC asks automated tools for a name and a contact email.
+sec_user_agent = "BCI Census you@example.com"
+
+# Your alert bot (README, "The Wire", step 1).
+telegram_bot_token = "1234567890:replace-with-the-token-from-BotFather"
+telegram_chat_id   = "123456789"
+
+# Your time zone, for quiet hours (23:00-07:00) and the 07:00 and 19:00 digests.
+timezone = "America/New_York"
+
+# Cost guardrail for the whole AWS account: emails at 50% and 100% of this.
+budget_email       = "you@example.com"
+monthly_budget_usd = 10
+
+# Optional ---------------------------------------------------------------
+# quiet_hours  = "23-7"   # or "off"
+# quiet_urgent = true     # let URGENT alerts (a tracked company's Form D or press release) ring at night
+# digest_hours = [7, 19]
+#
+# More job boards to watch. Provider and slug come from the careers-page URL,
+# e.g. jobs.lever.co/<slug> or jobs.ashbyhq.com/<slug>:
+# job_boards = [
+#   { program = "<program id from data/curated/programs.yaml>", provider = "lever", slug = "<slug>" },
+# ]
+#
+# disabled_sources = ["jobs"]
+# paused           = true  # stop the schedule without deleting anything

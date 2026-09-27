@@ -1,0 +1,65 @@
+# Announced rounds and other capital events. SEC Form D filings are pulled automatically
+# and shown alongside these; link a round to its Form D by adding form_d_accession when known.
+
+- id: blackrock-tether-2024-04-29
+  program: blackrock
+  date: 2024-04-29
+  event: Tether pays $200M for a majority stake (about $350M valuation)
+  amount_usd: 200000000
+  tier: C
+  source_url: https://www.forbes.com/sites/naveenrao/2024/04/30/what-200-million-in-crypto-cash-means-for-blackrock-neurotech/
+  checked_on: 2026-09-26
+
+- id: neuralink-series-e-2025-06-02
+  program: neuralink
+  date: 2025-06-02
+  event: $650M Series E at a reported $9B pre-money valuation; investors include Sequoia, Thrive and Lightspeed
+  amount_usd: 650000000
+  tier: C
+  source_url: https://siliconangle.com/2025/06/02/neuralink-raises-another-650m-reported-9b-pre-money-valuation/
+  checked_on: 2026-09-26
+
+- id: synchron-series-d-2025-11-06
+  program: synchron
+  date: 2025-11-06
+  event: $200M Series D led by Double Point Ventures; $345M raised in total
+  amount_usd: 200000000
+  tier: B
+  source_url: https://www.businesswire.com/news/home/20251106150841/en/Synchron-Raises-$200-Million-Series-D-to-Advance-Brain-Computer-Interface-Technology
+  checked_on: 2026-09-26
+
+- id: stairmed-2026-03
+  program: stairmed
+  date: 2026-03
+  event: RMB 500M (about $72M) round led by Alibaba, with Tencent
+  amount_usd: 72000000
+  tier: C
+  source_url: https://finance.yahoo.com/sectors/healthcare/articles/stairmed-secures-rmb-500-million-064100974.html
+  checked_on: 2026-09-26
+
+- id: axoft-series-a-2026-04-29
+  program: axoft
+  date: 2026-04-29
+  event: $55M Series A led by C.P. Group
+  amount_usd: 55000000
+  tier: B
+  source_url: https://www.businesswire.com/news/home/20260429285106/en/Axoft-Secures-$55M-Series-A-to-Advance-Clinical-Trials-Globally-for-its-Bio-Inspired-Implantable-Brain-Computer-Interface
+  checked_on: 2026-09-26
+
+- id: neuracle-ipo-filing-2026-06-11
+  program: neuracle
+  date: 2026-06-11
+  event: Shanghai STAR Market IPO filing accepted, seeking RMB 2.5B
+  amount_usd: null
+  tier: C
+  source_url: https://finance.eastmoney.com/a/202606123769082449.html
+  checked_on: 2026-09-26
+
+- id: precision-series-d-2026-09-24
+  program: precision
+  date: 2026-09-24
+  event: $250M Series D led by Pershing Square, the Ackman Oxman Institute and a life-sciences fund; about $430M raised in total
+  amount_usd: 250000000
+  tier: B
+  source_url: https://www.globenewswire.com/news-release/2026/09/24/3368254/0/en/precision-neuroscience-closes-oversubscribed-250m-series-d-led-by-pershing-square-inc-the-ackman-oxman-institute-and-a-leading-life-sciences-investment-fund.html
+  checked_on: 2026-09-26

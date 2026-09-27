@@ -1,0 +1,5 @@
+{"took": 45, "timed_out": false, "hits": {"total": {"value": 3, "relation": "eq"}, "hits": [
+ {"_index": "edgar_file", "_id": "0001753926-26-001386:MainDocument.htm", "_source": {"ciks": ["0000840715"], "display_names": ["CLEARONE INC  (CLRO)  (CIK 0000840715)"], "root_forms": ["S-1"], "file_date": "2026-08-10", "form": "S-1", "adsh": "0001753926-26-001386", "file_type": "S-1"}},
+ {"_index": "edgar_file", "_id": "0001753926-26-001482:ex991_1.htm", "_source": {"ciks": ["0001266806"], "display_names": ["Vivani Medical, Inc.  (VANI)  (CIK 0001266806)"], "root_forms": ["8-K"], "file_date": "2026-08-13", "form": "8-K", "adsh": "0001753926-26-001482", "file_type": "EX-99.1"}},
+ {"_index": "edgar_file", "_id": "0009999999-26-000001:primary_doc.xml", "_source": {"ciks": ["0009999999"], "display_names": ["Examplix Inc.  (CIK 0009999999)"], "root_forms": ["D"], "file_date": "2026-09-26", "form": "D", "adsh": "0009999999-26-000001", "file_type": "D"}}
+]}}

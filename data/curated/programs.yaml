@@ -1,0 +1,149 @@
+# Programs tracked by the census, in linking priority order (more specific first).
+# aliases: lowercase text matched against trial sponsors, titles and interventions.
+# fda_applicants: names matched against openFDA applicants.
+# sec_names: legal names searched on EDGAR for Form D filings. cik (confirmed in EDGAR) skips the search.
+
+- id: neuralink
+  name: Neuralink
+  company: Neuralink Corp.
+  device: N1 implant ("Telepathy")
+  approach: Intracortical; flexible threads placed by a surgical robot
+  purpose: Computer control; speech restoration in development
+  hq_country: United States
+  aliases: [neuralink, "n1 implant", "robotically implanted brain-computer interface"]
+  fda_applicants: [Neuralink]
+  sec_names: [Neuralink Corp]
+  cik: 1708503
+
+- id: synchron
+  name: Synchron
+  company: Synchron, Inc.
+  device: Stentrode
+  approach: Endovascular; electrode array delivered through a blood vessel
+  purpose: Computer control
+  hq_country: United States
+  aliases: [synchron, stentrode, "motor neuroprosthesis"]
+  fda_applicants: [Synchron]
+  sec_names: [Synchron Inc]
+  cik: 1864980
+
+- id: paradromics
+  name: Paradromics
+  company: Paradromics, Inc.
+  device: Connexus
+  approach: Intracortical; high-channel-count array
+  purpose: Speech and communication
+  hq_country: United States
+  aliases: [paradromics, connexus, "connect-one"]
+  fda_applicants: [Paradromics]
+  sec_names: [Paradromics Inc]
+  cik: 1668302
+
+- id: precision
+  name: Precision Neuroscience
+  company: Precision Neuroscience Corp.
+  device: Layer 7 Cortical Interface
+  approach: Thin-film electrodes on the brain's surface
+  purpose: Brain mapping during surgery today; communication for paralysis in development
+  hq_country: United States
+  aliases: ["precision neuroscience", "layer 7"]
+  fda_applicants: [Precision Neuroscience]
+  sec_names: [Precision Neuroscience Corp]
+  cik: 1858288
+
+- id: axoft
+  name: Axoft
+  company: Axoft, Inc.
+  device: Soft intracortical implant
+  approach: Intracortical; soft polymer electrodes
+  purpose: Communication and movement
+  hq_country: United States
+  aliases: [axoft]
+  fda_applicants: [Axoft]
+  sec_names: [Axoft Inc]
+  cik: 2014351
+
+- id: neuracle
+  name: Neuracle
+  company: Neuracle Technology
+  device: NEO
+  approach: Semi-invasive; epidural electrodes with a wireless implant
+  purpose: Hand movement after spinal cord injury
+  hq_country: China
+  aliases: [neuracle, "博睿康"]
+  fda_applicants: []
+  sec_names: []
+  cik: null
+
+- id: neucyber
+  name: NeuCyber
+  company: NeuCyber NeuroTech
+  device: Beinao-1
+  approach: Semi-invasive; wireless implant
+  purpose: Communication and movement
+  hq_country: China
+  aliases: [neucyber, beinao]
+  fda_applicants: []
+  sec_names: []
+  cik: null
+
+- id: stairmed
+  name: StairMed
+  company: StairMed
+  device: Flexible intracortical implant
+  approach: Intracortical; ultra-flexible electrodes
+  purpose: Communication and movement
+  hq_country: China
+  aliases: [stairmed, "阶梯医疗"]
+  fda_applicants: []
+  sec_names: []
+  cik: null
+
+- id: onward
+  name: Onward ARC-BCI
+  company: Onward Medical (with Clinatec and EPFL)
+  device: ARC-BCI with the WIMAGINE implant
+  approach: Epidural electrode implant linked to spinal cord stimulation
+  purpose: Walking and arm movement after spinal cord injury or stroke
+  hq_country: Netherlands
+  # EPFL registers the same brain-spine interface as ARC-BSI and STIMO-BSI.
+  aliases: ["arc-bci", "arc-bsi", "stimo-bsi", wimagine, "onward medical"]
+  fda_applicants: [Onward Medical]
+  sec_names: []
+  cik: null
+
+- id: cortec
+  name: CorTec Brain Interchange
+  company: CorTec GmbH
+  device: Brain Interchange
+  approach: Implanted electrodes that record and stimulate
+  purpose: Movement rehabilitation after stroke
+  hq_country: Germany
+  aliases: [cortec, "brain interchange"]
+  fda_applicants: [CorTec]
+  sec_names: []
+  cik: null
+
+- id: braingate
+  name: BrainGate
+  company: BrainGate academic consortium
+  device: BrainGate neural interface (Utah arrays)
+  approach: Intracortical microelectrode arrays
+  purpose: Computer control and speech
+  hq_country: United States
+  aliases: [braingate]
+  fda_applicants: []
+  sec_names: []
+  cik: null
+
+- id: blackrock
+  name: Blackrock arrays
+  company: Blackrock Neurotech
+  device: Utah array / NeuroPort
+  approach: Intracortical microelectrode arrays
+  purpose: Used by most academic BCI studies
+  hq_country: United States
+  aliases: [blackrock, neuroport, "utah array", "utah electrode array"]
+  fda_applicants: [Blackrock Microsystems, Blackrock Neurotech]
+  sec_names: []  # EDGAR only shows a third-party SPV under this name, not the company
+  cik: null

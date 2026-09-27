@@ -1,0 +1,18 @@
+# Manual corrections to the trial classifier and linker. Keys are NCT IDs. Every entry needs a reason.
+#   in_scope: true | false     force the scope decision
+#   duration: chronic | acute  force the implant duration
+#   program: <program id>      force the program link
+#   implanted: <number>        people actually implanted, when a paper or the sponsor says so; replaces
+#                              the registry's enrollment count (needs source_url)
+overrides:
+  NCT03834857:
+    implanted: 4
+    source_url: https://pubmed.ncbi.nlm.nih.gov/36622685/
+    reason: >-
+      The registry lists 5 enrolled. The SWITCH paper (Mitchell et al., JAMA Neurology 2023), which the
+      registry record cites, reports 4 people implanted.
+  NCT07407725:
+    in_scope: false
+    reason: >-
+      Outcome-measure study of people who already use assistive technology or a BCI. The record does not
+      describe implanting anyone.

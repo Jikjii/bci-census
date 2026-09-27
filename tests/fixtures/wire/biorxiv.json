@@ -1,0 +1,5 @@
+{"messages": [{"status": "ok", "interval": "2026-09-25:2026-09-26", "cursor": "0", "count": 2, "total": "2"}],
+ "collection": [
+  {"doi": "10.0000/test.000001", "title": "A test closed-loop intracortical brain-computer interface", "authors": "A; B", "date": "2026-09-25", "version": "1", "category": "neuroscience", "abstract": "Test abstract.", "server": "bioRxiv"},
+  {"doi": "10.0000/test.000002", "title": "Soil microbes in drought", "authors": "C", "date": "2026-09-25", "version": "1", "category": "ecology", "abstract": "Soil.", "server": "bioRxiv"}
+ ]}

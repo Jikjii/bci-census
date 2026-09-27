@@ -1,0 +1,97 @@
+{
+  "totalCount": 8,
+  "studies": [
+    {
+      "protocolSection": {
+        "identificationModule": {"nctId": "NCT90000001", "briefTitle": "PRIME Study: Precise Robotically IMplanted Brain-Computer InterfacE", "officialTitle": "Early feasibility of a wireless implanted brain-computer interface"},
+        "statusModule": {"overallStatus": "RECRUITING", "startDateStruct": {"date": "2024-01"}, "lastUpdatePostDateStruct": {"date": "2026-08-01"}},
+        "sponsorCollaboratorsModule": {"leadSponsor": {"name": "Neuralink Corp"}},
+        "designModule": {"studyType": "INTERVENTIONAL", "phases": ["NA"], "enrollmentInfo": {"count": 3, "type": "ESTIMATED"}},
+        "conditionsModule": {"conditions": ["Quadriplegia", "Amyotrophic Lateral Sclerosis"]},
+        "armsInterventionsModule": {"interventions": [{"type": "DEVICE", "name": "N1 Implant", "description": "Implanted brain-computer interface placed by a surgical robot"}]},
+        "contactsLocationsModule": {"locations": [{"country": "United States"}]},
+        "descriptionModule": {"briefSummary": "Evaluates safety of the implant and the ability to control a computer cursor."}
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {"nctId": "NCT90000002", "briefTitle": "Early Feasibility Study of an Endovascular Motor Neuroprosthesis"},
+        "statusModule": {"overallStatus": "ACTIVE_NOT_RECRUITING", "startDateStruct": {"date": "2021-07-15"}},
+        "sponsorCollaboratorsModule": {"leadSponsor": {"name": "Synchron Inc."}},
+        "designModule": {"studyType": "INTERVENTIONAL", "enrollmentInfo": {"count": 6, "type": "ACTUAL"}},
+        "conditionsModule": {"conditions": ["Paralysis"]},
+        "armsInterventionsModule": {"interventions": [{"type": "DEVICE", "name": "Stentrode brain-computer interface", "description": "Endovascular electrode array"}]},
+        "contactsLocationsModule": {"locations": [{"country": "United States"}]},
+        "descriptionModule": {"briefSummary": "Participants use the device to control digital devices for communication."}
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {"nctId": "NCT90000003", "briefTitle": "EEG-Based Brain-Computer Interface for Stroke Rehabilitation"},
+        "statusModule": {"overallStatus": "COMPLETED"},
+        "sponsorCollaboratorsModule": {"leadSponsor": {"name": "Example University"}},
+        "designModule": {"studyType": "INTERVENTIONAL", "enrollmentInfo": {"count": 40, "type": "ACTUAL"}},
+        "conditionsModule": {"conditions": ["Stroke"]},
+        "armsInterventionsModule": {"interventions": [{"type": "DEVICE", "name": "Non-invasive EEG headset BCI"}]},
+        "descriptionModule": {"briefSummary": "A non-invasive BCI using scalp EEG to drive a hand orthosis."}
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {"nctId": "NCT90000004", "briefTitle": "Adaptive Deep Brain Stimulation Using an Implanted Brain-Computer Interface in Parkinson's Disease"},
+        "statusModule": {"overallStatus": "RECRUITING"},
+        "sponsorCollaboratorsModule": {"leadSponsor": {"name": "Example Medical Center"}},
+        "designModule": {"studyType": "INTERVENTIONAL", "enrollmentInfo": {"count": 20, "type": "ESTIMATED"}},
+        "conditionsModule": {"conditions": ["Parkinson Disease"]},
+        "armsInterventionsModule": {"interventions": [{"type": "DEVICE", "name": "Sensing DBS implant"}]},
+        "descriptionModule": {"briefSummary": "Closed-loop DBS that senses beta activity to adjust stimulation."}
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {"nctId": "NCT90000005", "briefTitle": "Speech Decoding From Electrocorticography in Patients Undergoing Epilepsy Monitoring"},
+        "statusModule": {"overallStatus": "RECRUITING"},
+        "sponsorCollaboratorsModule": {"leadSponsor": {"name": "Example University Hospital"}},
+        "designModule": {"studyType": "INTERVENTIONAL", "enrollmentInfo": {"count": 12, "type": "ACTUAL"}},
+        "conditionsModule": {"conditions": ["Epilepsy"]},
+        "armsInterventionsModule": {"interventions": [{"type": "OTHER", "name": "Brain-computer interface speech task"}]},
+        "descriptionModule": {"briefSummary": "Uses subdural electrodes already implanted for clinical epilepsy monitoring."}
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {"nctId": "NCT90000006", "briefTitle": "Subretinal Photovoltaic Implant for Geographic Atrophy"},
+        "statusModule": {"overallStatus": "COMPLETED"},
+        "sponsorCollaboratorsModule": {"leadSponsor": {"name": "Example Vision Co"}},
+        "designModule": {"studyType": "INTERVENTIONAL", "enrollmentInfo": {"count": 38, "type": "ACTUAL"}},
+        "conditionsModule": {"conditions": ["Geographic Atrophy"]},
+        "armsInterventionsModule": {"interventions": [{"type": "DEVICE", "name": "Retinal neural interface implant"}]},
+        "descriptionModule": {"briefSummary": "A visual prosthesis placed under the retina."}
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {"nctId": "NCT90000007", "briefTitle": "Implanted Peripheral Nerve Interface for Prosthetic Hand Control"},
+        "statusModule": {"overallStatus": "RECRUITING"},
+        "sponsorCollaboratorsModule": {"leadSponsor": {"name": "Example Institute"}},
+        "designModule": {"studyType": "INTERVENTIONAL", "enrollmentInfo": {"count": 5, "type": "ESTIMATED"}},
+        "conditionsModule": {"conditions": ["Amputation"]},
+        "armsInterventionsModule": {"interventions": [{"type": "DEVICE", "name": "Neural interface nerve cuff implant"}]},
+        "descriptionModule": {"briefSummary": "Electrodes on the median nerve decode intent for a prosthetic hand."}
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {"nctId": "NCT90000008", "briefTitle": "BrainGate2: Feasibility Study of an Intracortical Neural Interface System for Persons With Tetraplegia"},
+        "statusModule": {"overallStatus": "ENROLLING_BY_INVITATION", "startDateStruct": {"date": "2009-05"}},
+        "sponsorCollaboratorsModule": {"leadSponsor": {"name": "Example Investigator, MD"}, "collaborators": [{"name": "Massachusetts General Hospital"}]},
+        "designModule": {"studyType": "INTERVENTIONAL", "enrollmentInfo": {"count": 15, "type": "ACTUAL"}},
+        "conditionsModule": {"conditions": ["Tetraplegia"]},
+        "armsInterventionsModule": {"interventions": [{"type": "DEVICE", "name": "BrainGate2 Neural Interface System"}]},
+        "contactsLocationsModule": {"locations": [{"country": "United States"}, {"country": "United States"}]},
+        "descriptionModule": {"briefSummary": "Microelectrode arrays implanted in motor cortex to restore communication."}
+      }
+    }
+  ],
+  "nextPageToken": null
+}
