@@ -1,14 +1,14 @@
 program,name,company,device,approach,hq_country,floor,basis,registry_sum,acute,trials_in_scope,trials_active
+neuracle,Neuracle,Neuracle Technology,NEO,Semi-invasive; epidural electrodes with a wireless implant,China,32,registry,32,0,2,1
 neucyber,NeuCyber,NeuCyber NeuroTech,Beinao-1,Semi-invasive; wireless implant,China,30,sourced,0,0,0,0
-neuralink,Neuralink,Neuralink Corp.,"N1 implant (""Telepathy"")",Intracortical; flexible threads placed by a surgical robot,United States,21,sourced,0,0,0,0
-neuracle,Neuracle,Neuracle Technology,NEO,Semi-invasive; epidural electrodes with a wireless implant,China,1,sourced,0,0,0,0
-paradromics,Paradromics,"Paradromics, Inc.",Connexus,Intracortical; high-channel-count array,United States,1,sourced,0,0,0,0
-academic-other,Academic and other,Universities and hospitals,Various,Various,,0,none,0,0,0,0
-axoft,Axoft,"Axoft, Inc.",Soft intracortical implant,Intracortical; soft polymer electrodes,United States,0,none,0,0,0,0
-blackrock,Blackrock arrays,Blackrock Neurotech,Utah array / NeuroPort,Intracortical microelectrode arrays,United States,0,none,0,0,0,0
-braingate,BrainGate,BrainGate academic consortium,BrainGate neural interface (Utah arrays),Intracortical microelectrode arrays,United States,0,none,0,0,0,0
+neuralink,Neuralink,Neuralink Corp.,"N1 implant (""Telepathy"")",Intracortical; flexible threads placed by a surgical robot,United States,21,sourced,0,0,6,6
+synchron,Synchron,"Synchron, Inc.",Stentrode,Endovascular; electrode array delivered through a blood vessel,United States,10,registry,10,0,6,4
+academic-other,Academic and other,Universities and hospitals,Various,Various,,7,registry,7,6,30,22
+blackrock,Blackrock arrays,Blackrock Neurotech,Utah array / NeuroPort,Intracortical microelectrode arrays,United States,2,registry,2,3,5,2
+paradromics,Paradromics,"Paradromics, Inc.",Connexus,Intracortical; high-channel-count array,United States,1,sourced,0,0,1,1
+axoft,Axoft,"Axoft, Inc.",Soft intracortical implant,Intracortical; soft polymer electrodes,United States,0,none,0,5,1,0
+braingate,BrainGate,BrainGate academic consortium,BrainGate neural interface (Utah arrays),Intracortical microelectrode arrays,United States,0,none,0,0,5,5
 cortec,CorTec Brain Interchange,CorTec GmbH,Brain Interchange,Implanted electrodes that record and stimulate,Germany,0,none,0,0,0,0
-onward,Onward ARC-BCI,Onward Medical (with Clinatec and EPFL),ARC-BCI with the WIMAGINE implant,Epidural electrode implant linked to spinal cord stimulation,Netherlands,0,none,0,0,0,0
+onward,Onward ARC-BCI,Onward Medical (with Clinatec and EPFL),ARC-BCI with the WIMAGINE implant,Epidural electrode implant linked to spinal cord stimulation,Netherlands,0,none,0,0,4,4
 precision,Precision Neuroscience,Precision Neuroscience Corp.,Layer 7 Cortical Interface,Thin-film electrodes on the brain's surface,United States,0,none,0,0,0,0
-stairmed,StairMed,StairMed,Flexible intracortical implant,Intracortical; ultra-flexible electrodes,China,0,none,0,0,0,0
-synchron,Synchron,"Synchron, Inc.",Stentrode,Endovascular; electrode array delivered through a blood vessel,United States,0,none,0,0,0,0
+stairmed,StairMed,StairMed,Flexible intracortical implant,Intracortical; ultra-flexible electrodes,China,0,none,0,0,4,4

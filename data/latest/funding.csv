@@ -6,3 +6,31 @@ date,program,event,amount_usd,tier,source_url
 2026-04-29,axoft,$55M Series A led by C.P. Group,55000000,B,https://www.businesswire.com/news/home/20260429285106/en/Axoft-Secures-$55M-Series-A-to-Advance-Clinical-Trials-Globally-for-its-Bio-Inspired-Implantable-Brain-Computer-Interface
 2026-06-11,neuracle,"Shanghai STAR Market IPO filing accepted, seeking RMB 2.5B",,C,https://finance.eastmoney.com/a/202606123769082449.html
 2026-09-24,precision,"$250M Series D led by Pershing Square, the Ackman Oxman Institute and a life-sciences fund; about $430M raised in total",250000000,B,https://www.globenewswire.com/news-release/2026/09/24/3368254/0/en/precision-neuroscience-closes-oversubscribed-250m-series-d-led-by-pershing-square-inc-the-ackman-oxman-institute-and-a-leading-life-sciences-investment-fund.html
+2025-06-12,neuralink,Form D (Neuralink Corp.),649000093.0,A,https://www.sec.gov/Archives/edgar/data/1708503/000170850325000003/0001708503-25-000003-index.htm
+2023-11-22,neuralink,Form D/A (Neuralink Corp.),323241676.0,A,https://www.sec.gov/Archives/edgar/data/1708503/000170850323000002/0001708503-23-000002-index.htm
+2023-08-08,neuralink,Form D (Neuralink Corp.),280274981.0,A,https://www.sec.gov/Archives/edgar/data/1708503/000170850323000001/0001708503-23-000001-index.htm
+2021-08-04,neuralink,Form D (Neuralink Corp.),205899985.0,A,https://www.sec.gov/Archives/edgar/data/1708503/000170850321000002/0001708503-21-000002-index.htm
+2019-05-10,neuralink,Form D (Neuralink Corp.),39312497.0,A,https://www.sec.gov/Archives/edgar/data/1708503/000170850319000001/0001708503-19-000001-index.htm
+2017-08-25,neuralink,Form D (Neuralink Corp.),26958000.0,A,https://www.sec.gov/Archives/edgar/data/1708503/000170850317000001/0001708503-17-000001-index.htm
+2022-12-20,synchron,"Form D/A (Synchron, Inc.)",72287927.0,A,https://www.sec.gov/Archives/edgar/data/1864980/000186498022000002/0001864980-22-000002-index.htm
+2022-12-20,synchron,"Form D (Synchron, Inc.)",49902952.0,A,https://www.sec.gov/Archives/edgar/data/1864980/000186498022000001/0001864980-22-000001-index.htm
+2021-05-28,synchron,"Form D (Synchron, Inc.)",32573331.0,A,https://www.sec.gov/Archives/edgar/data/1864980/000186498021000001/0001864980-21-000001-index.htm
+2023-11-07,paradromics,"Form D/A (Paradromics, Inc.)",50141276.0,A,https://www.sec.gov/Archives/edgar/data/1668302/000193459823000003/0001934598-23-000003-index.htm
+2023-04-05,paradromics,"Form D (Paradromics, Inc.)",33012815.0,A,https://www.sec.gov/Archives/edgar/data/1668302/000166830223000001/0001668302-23-000001-index.htm
+2022-09-21,paradromics,"Form D (Paradromics, Inc.)",8864853.0,A,https://www.sec.gov/Archives/edgar/data/1668302/000166830222000002/0001668302-22-000002-index.htm
+2021-10-19,paradromics,"Form D/A (Paradromics, Inc.)",28230600.0,A,https://www.sec.gov/Archives/edgar/data/1668302/000166830221000003/0001668302-21-000003-index.htm
+2021-07-23,paradromics,"Form D/A (Paradromics, Inc.)",20000000.0,A,https://www.sec.gov/Archives/edgar/data/1668302/000166830221000002/0001668302-21-000002-index.htm
+2021-02-01,paradromics,"Form D (Paradromics, Inc.)",4102479.0,A,https://www.sec.gov/Archives/edgar/data/1668302/000166830221000001/0001668302-21-000001-index.htm
+2019-04-15,paradromics,"Form D (Paradromics, Inc.)",1350000.0,A,https://www.sec.gov/Archives/edgar/data/1668302/000166830219000001/0001668302-19-000001-index.htm
+2018-05-22,paradromics,"Form D/A (Paradromics, Inc.)",7140015.0,A,https://www.sec.gov/Archives/edgar/data/1668302/000166830218000003/0001668302-18-000003-index.htm
+2018-03-14,paradromics,"Form D (Paradromics, Inc.)",6193530.0,A,https://www.sec.gov/Archives/edgar/data/1668302/000166830218000001/0001668302-18-000001-index.htm
+2017-06-05,paradromics,"Form D (Paradromics, Inc.)",175000.0,A,https://www.sec.gov/Archives/edgar/data/1668302/000166830217000001/0001668302-17-000001-index.htm
+2016-03-01,paradromics,"Form D (Paradromics, Inc.)",985000.0,A,https://www.sec.gov/Archives/edgar/data/1668302/000166830216000001/0001668302-16-000001-index.htm
+2024-10-17,precision,Form D (Precision Neuroscience Corp),93118915.0,A,https://www.sec.gov/Archives/edgar/data/1858288/000112329224000308/0001123292-24-000308-index.htm
+2024-04-02,precision,Form D (Precision Neuroscience Corp),27500000.0,A,https://www.sec.gov/Archives/edgar/data/1858288/000112329224000099/0001123292-24-000099-index.htm
+2023-02-01,precision,Form D/A (Precision Neuroscience Corp),41150023.0,A,https://www.sec.gov/Archives/edgar/data/1858288/000156761923001594/0001567619-23-001594-index.htm
+2022-12-19,precision,Form D (Precision Neuroscience Corp),34300018.0,A,https://www.sec.gov/Archives/edgar/data/1858288/000156761922021752/0001567619-22-021752-index.htm
+2021-04-28,precision,Form D (Precision Neuroscience Corp),10500000.0,A,https://www.sec.gov/Archives/edgar/data/1858288/000156761921008653/0001567619-21-008653-index.htm
+2026-05-07,axoft,"Form D (AXOFT, INC.)",34245380.0,A,https://www.sec.gov/Archives/edgar/data/2014351/000201435126000003/0002014351-26-000003-index.htm
+2024-03-05,axoft,"Form D (AXOFT, INC.)",8775976.0,A,https://www.sec.gov/Archives/edgar/data/2014351/000201435124000002/0002014351-24-000002-index.htm
+2024-03-05,axoft,"Form D (AXOFT, INC.)",500000.0,A,https://www.sec.gov/Archives/edgar/data/2014351/000201435124000001/0002014351-24-000001-index.htm

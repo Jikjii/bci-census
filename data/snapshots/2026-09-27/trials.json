@@ -1,0 +1,1281 @@
+[
+  {
+    "nct_id": "NCT04632290",
+    "title": "Brain-controlled Spinal Cord Stimulation in Patients With Spinal Cord Injury",
+    "program": "onward",
+    "sponsor": "Ecole Polytechnique Fédérale de Lausanne",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "enrollment": 3,
+    "enrollment_type": "ESTIMATED",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('brain-spine interface', 'WIMAGINE')",
+    "start_date": "2021-07-04",
+    "primary_completion_date": "2028-03",
+    "completion_date": "2028-03",
+    "countries": [
+      "Switzerland"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT04632290",
+    "last_update": "2025-06-29"
+  },
+  {
+    "nct_id": "NCT07225582",
+    "title": "Development of Optimal Sensory Feedback Strategies to Maximize Function After Tetraplegia",
+    "program": "academic-other",
+    "sponsor": "Case Western Reserve University",
+    "status": "RECRUITING",
+    "enrollment": 3,
+    "enrollment_type": "ESTIMATED",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('Brain Computer Interface', 'Intracortical microstimulation')",
+    "start_date": "2026-01-13",
+    "primary_completion_date": "2030-09-01",
+    "completion_date": "2030-09-01",
+    "countries": [
+      "United States"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT07225582",
+    "last_update": "2026-02-19"
+  },
+  {
+    "nct_id": "NCT02550522",
+    "title": "Brain Computer Interface: Neuroprosthetic Control of a Motorized Exoskeleton",
+    "program": "academic-other",
+    "sponsor": "University Hospital, Grenoble",
+    "status": "RECRUITING",
+    "enrollment": 5,
+    "enrollment_type": "ESTIMATED",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('Brain Computer Interface', 'electrocorticogram')",
+    "start_date": "2015-09",
+    "primary_completion_date": "2033-04",
+    "completion_date": "2033-04",
+    "countries": [
+      "France"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT02550522",
+    "last_update": "2024-12-16"
+  },
+  {
+    "nct_id": "NCT07224256",
+    "title": "VOICE: An Early Feasibility Study of a Precise Robotically Implanted Brain-Computer Interface for Communication Restoration",
+    "program": "neuralink",
+    "sponsor": "Neuralink Corp",
+    "status": "RECRUITING",
+    "enrollment": 6,
+    "enrollment_type": "ESTIMATED",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('Brain-Computer Interface', 'Neuralink')",
+    "start_date": "2025-10-03",
+    "primary_completion_date": "2028-10",
+    "completion_date": "2031-10",
+    "countries": [
+      "United States"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT07224256",
+    "last_update": "2025-11-04"
+  },
+  {
+    "nct_id": "NCT06243952",
+    "title": "Brain Controlled Spinal Cord Stimulation In Participants With Spinal Cord Injury For Lower Limb Rehabilitation",
+    "program": "onward",
+    "sponsor": "Ecole Polytechnique Fédérale de Lausanne",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "enrollment": 3,
+    "enrollment_type": "ESTIMATED",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('Brain computer interface', 'ECoG')",
+    "start_date": "2024-05-03",
+    "primary_completion_date": "2030-07",
+    "completion_date": "2030-07",
+    "countries": [
+      "Switzerland"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT06243952",
+    "last_update": "2026-07-28"
+  },
+  {
+    "nct_id": "NCT06992596",
+    "title": "UAE-PRIME: A Feasibility Study of a Precise Robotically Implanted Brain-Computer Interface for the Control of External Devices",
+    "program": "neuralink",
+    "sponsor": "Neuralink Corp",
+    "status": "RECRUITING",
+    "enrollment": 10,
+    "enrollment_type": "ESTIMATED",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('Brain-Computer Interface', 'Neuralink')",
+    "start_date": "2025-05-09",
+    "primary_completion_date": "2026-11",
+    "completion_date": "2027-11",
+    "countries": [
+      "United Arab Emirates"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT06992596",
+    "last_update": "2025-06-05"
+  },
+  {
+    "nct_id": "NCT07784088",
+    "title": "Implantable Wireless Brain-Computer Interface Systems in Patients With Tetraplegia",
+    "program": "academic-other",
+    "sponsor": "BCIFlex Medical Technology Co., Ltd.",
+    "status": "RECRUITING",
+    "enrollment": 34,
+    "enrollment_type": "ESTIMATED",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('Brain-Computer Interface', 'Implantable Wireless Brain-Computer Interface')",
+    "start_date": "2026-07-15",
+    "primary_completion_date": "2027-06",
+    "completion_date": "2027-07",
+    "countries": [
+      "China"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT07784088",
+    "last_update": "2026-08-25"
+  },
+  {
+    "nct_id": "NCT07698496",
+    "title": "Evaluation of the Feasibility and Efficacy of a Chronic Brain-computer Interface for Speech Rehabilitation in Patients With Locked-in-syndrome (LIS)",
+    "program": "academic-other",
+    "sponsor": "University Hospital, Grenoble",
+    "status": "NOT_YET_RECRUITING",
+    "enrollment": 3,
+    "enrollment_type": "ESTIMATED",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('Brain-computer Interface', 'Utah Array')",
+    "start_date": "2026-10-10",
+    "primary_completion_date": "2031-01-30",
+    "completion_date": "2031-09-30",
+    "countries": [
+      "France"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT07698496",
+    "last_update": "2026-07-13"
+  },
+  {
+    "nct_id": "NCT06511934",
+    "title": "Feasibility of the BrainGate2 Neural Interface System in Persons With Tetraplegia (BG-Tablet-01)",
+    "program": "braingate",
+    "sponsor": "Leigh R. Hochberg, MD, PhD.",
+    "status": "RECRUITING",
+    "enrollment": 6,
+    "enrollment_type": "ESTIMATED",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('brain-computer interface', 'iBCI')",
+    "start_date": "2024-07-22",
+    "primary_completion_date": "2026-07-30",
+    "completion_date": "2027-07-30",
+    "countries": [
+      "United States"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT06511934",
+    "last_update": "2026-06-25"
+  },
+  {
+    "nct_id": "NCT06710626",
+    "title": "Control of Assistive Devices Via Brain-Computer Interface Technology",
+    "program": "neuralink",
+    "sponsor": "Neuralink Corp",
+    "status": "ENROLLING_BY_INVITATION",
+    "enrollment": 3,
+    "enrollment_type": "ESTIMATED",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('Brain-Computer Interface', 'Neuralink')",
+    "start_date": "2024-11-25",
+    "primary_completion_date": "2031-05-25",
+    "completion_date": "2031-05-25",
+    "countries": [
+      "United States"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT06710626",
+    "last_update": "2025-06-05"
+  },
+  {
+    "nct_id": "NCT00912041",
+    "title": "BrainGate2: Feasibility Study of an Intracortical Neural Interface System for Persons With Tetraplegia",
+    "program": "braingate",
+    "sponsor": "Leigh R. Hochberg, MD, PhD.",
+    "status": "RECRUITING",
+    "enrollment": 27,
+    "enrollment_type": "ESTIMATED",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('Brain computer interface', 'Intracortical Neural')",
+    "start_date": "2009-05",
+    "primary_completion_date": "2038-09",
+    "completion_date": "2038-12",
+    "countries": [
+      "United States"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT00912041",
+    "last_update": "2026-06-01"
+  },
+  {
+    "nct_id": "NCT05041114",
+    "title": "SWITCH II Early Feasibility Study: Implantable BCI to Control a Digital Device for People With Paralysis",
+    "program": "synchron",
+    "sponsor": "Synchron Medical, Inc.",
+    "status": "WITHDRAWN",
+    "enrollment": 0,
+    "enrollment_type": "ACTUAL",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('brain computer interface', 'Stentrode')",
+    "start_date": "2022-04-21",
+    "primary_completion_date": "2022-11-30",
+    "completion_date": "2022-11-30",
+    "countries": [
+      "Australia"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT05041114",
+    "last_update": "2023-03-21"
+  },
+  {
+    "nct_id": "NCT01849822",
+    "title": "Providing Brain Control of Extracorporeal Devices to Patients With Quadriplegia",
+    "program": "academic-other",
+    "sponsor": "Richard A. Andersen, PhD",
+    "status": "COMPLETED",
+    "enrollment": 1,
+    "enrollment_type": "ACTUAL",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('brain-machine interface', 'NeuroPort')",
+    "start_date": "2013-02",
+    "primary_completion_date": "2019-01",
+    "completion_date": "2019-01",
+    "countries": [
+      "United States"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT01849822",
+    "last_update": "2021-04-30"
+  },
+  {
+    "nct_id": "NCT01894802",
+    "title": "Cortical Recording and Stimulating Array Brain-Machine Interface",
+    "program": "academic-other",
+    "sponsor": "Michael Boninger",
+    "status": "RECRUITING",
+    "enrollment": 30,
+    "enrollment_type": "ESTIMATED",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('Brain-Machine Interface', 'implanted in the motor cortex')",
+    "start_date": "2013-12-01",
+    "primary_completion_date": "2027-08",
+    "completion_date": "2029-12",
+    "countries": [
+      "United States"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT01894802",
+    "last_update": "2026-05-20"
+  },
+  {
+    "nct_id": "NCT07127172",
+    "title": "GB-PRIME: An Early Feasibility Study of a Precise Robotically Implanted Brain-Computer Interface for the Control of External Devices",
+    "program": "neuralink",
+    "sponsor": "Neuralink Corp",
+    "status": "RECRUITING",
+    "enrollment": 7,
+    "enrollment_type": "ESTIMATED",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('Brain-Computer Interface', 'Neuralink')",
+    "start_date": "2025-07-31",
+    "primary_completion_date": "2028-01",
+    "completion_date": "2031-02",
+    "countries": [
+      "United Kingdom"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT07127172",
+    "last_update": "2025-08-17"
+  },
+  {
+    "nct_id": "NCT03834857",
+    "title": "SWITCH: Stentrode First-in-Human Study of Implantable BCI for Control of a Digital Device",
+    "program": "synchron",
+    "sponsor": "Synchron Australia Pty Ltd.",
+    "status": "COMPLETED",
+    "enrollment": 5,
+    "enrollment_type": "ACTUAL",
+    "implanted": 4,
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('BCI', 'Stentrode')",
+    "start_date": "2019-05-27",
+    "primary_completion_date": "2021-12-10",
+    "completion_date": "2022-01-09",
+    "countries": [
+      "Australia"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT03834857",
+    "last_update": "2022-09-01"
+  },
+  {
+    "nct_id": "NCT05936619",
+    "title": "MindEx: A Novel, Multifocal, Cognitive Brain-Machine Interface System",
+    "program": "academic-other",
+    "sponsor": "Nader Pouratian",
+    "status": "RECRUITING",
+    "enrollment": 2,
+    "enrollment_type": "ESTIMATED",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('Brain-Machine Interface', 'NeuroPort')",
+    "start_date": "2026-02-20",
+    "primary_completion_date": "2030-05-30",
+    "completion_date": "2031-09-01",
+    "countries": [
+      "United States"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT05936619",
+    "last_update": "2026-03-17"
+  },
+  {
+    "nct_id": "NCT06829212",
+    "title": "Research on Wireless Brain Implant System for General Control of External Devices",
+    "program": "stairmed",
+    "sponsor": "Shanghai StairMed Technology Co., Ltd.",
+    "status": "RECRUITING",
+    "enrollment": 4,
+    "enrollment_type": "ESTIMATED",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('brain-machine interface', 'Brain Implant')",
+    "start_date": "2025-03",
+    "primary_completion_date": "2027-02",
+    "completion_date": "2027-02",
+    "countries": [
+      "China"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT06829212",
+    "last_update": "2025-03-13"
+  },
+  {
+    "nct_id": "NCT01958086",
+    "title": "Visuomotor Prosthetic for Paralysis",
+    "program": "academic-other",
+    "sponsor": "Richard A. Andersen, PhD",
+    "status": "RECRUITING",
+    "enrollment": 2,
+    "enrollment_type": "ESTIMATED",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('brain machine interface', 'NeuroPort')",
+    "start_date": "2013-10-01",
+    "primary_completion_date": "2031-04-30",
+    "completion_date": "2031-07-31",
+    "countries": [
+      "United States"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT01958086",
+    "last_update": "2026-03-18"
+  },
+  {
+    "nct_id": "NCT03698149",
+    "title": "ECoG BMI for Motor and Speech Control",
+    "program": "blackrock",
+    "sponsor": "Karunesh Ganguly",
+    "status": "RECRUITING",
+    "enrollment": 3,
+    "enrollment_type": "ESTIMATED",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('NeuroPort', 'NeuroPort')",
+    "start_date": "2018-11-09",
+    "primary_completion_date": "2030-08-15",
+    "completion_date": "2030-08-15",
+    "countries": [
+      "United States"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT03698149",
+    "last_update": "2026-05-05"
+  },
+  {
+    "nct_id": "NCT06429735",
+    "title": "Precise Robotically IMplanted Brain-Computer InterfacE",
+    "program": "neuralink",
+    "sponsor": "Neuralink Corp",
+    "status": "RECRUITING",
+    "enrollment": 15,
+    "enrollment_type": "ESTIMATED",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('Brain-Computer InterfacE', 'Neuralink')",
+    "start_date": "2024-01-09",
+    "primary_completion_date": "2026-06",
+    "completion_date": "2031-01",
+    "countries": [
+      "United States"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT06429735",
+    "last_update": "2026-01-09"
+  },
+  {
+    "nct_id": "NCT07521930",
+    "title": "Interfacing With NeuroTechnology to Expand Neural Throughput (INTENT)",
+    "program": "blackrock",
+    "sponsor": "Johns Hopkins University",
+    "status": "RECRUITING",
+    "enrollment": 5,
+    "enrollment_type": "ESTIMATED",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('Brain Computer Interface', 'microelectrode arrays')",
+    "start_date": "2026-09",
+    "primary_completion_date": "2028-06",
+    "completion_date": "2028-12",
+    "countries": [
+      "United States"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT07521930",
+    "last_update": "2026-09-02"
+  },
+  {
+    "nct_id": "NCT06432907",
+    "title": "StereoEEG Motor Neuronal Potentials Decoding",
+    "program": "academic-other",
+    "sponsor": "Research Center of Neurology, Russia",
+    "status": "RECRUITING",
+    "enrollment": 30,
+    "enrollment_type": "ESTIMATED",
+    "duration": "acute",
+    "in_scope": true,
+    "reason": "Implanted BCI, temporary ('StereoEEG')",
+    "start_date": "2024-06-06",
+    "primary_completion_date": "2026-12-25",
+    "completion_date": "2026-12-25",
+    "countries": [
+      "Russia"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT06432907",
+    "last_update": "2025-07-24"
+  },
+  {
+    "nct_id": "NCT07460037",
+    "title": "Chinese-Specific Speech Imagery Coding Using High-Density ECoG",
+    "program": "academic-other",
+    "sponsor": "Second Affiliated Hospital, Zhejiang University, School of Medicine",
+    "status": "RECRUITING",
+    "enrollment": 50,
+    "enrollment_type": "ESTIMATED",
+    "duration": "acute",
+    "in_scope": true,
+    "reason": "Implanted BCI, temporary ('intraoperative')",
+    "start_date": "2026-03-15",
+    "primary_completion_date": "2028-12-31",
+    "completion_date": "2028-12-31",
+    "countries": [
+      "China"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT07460037",
+    "last_update": "2026-03-10"
+  },
+  {
+    "nct_id": "NCT07533903",
+    "title": "Functional Outcomes and Control Using Synchron BCI - Australia",
+    "program": "synchron",
+    "sponsor": "Synchron, Inc.",
+    "status": "RECRUITING",
+    "enrollment": 10,
+    "enrollment_type": "ESTIMATED",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('Brain Computer Interface', 'Stentrode')",
+    "start_date": "2026-05-22",
+    "primary_completion_date": "2027-03",
+    "completion_date": "2027-12",
+    "countries": [
+      "Australia"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT07533903",
+    "last_update": "2026-06-09"
+  },
+  {
+    "nct_id": "NCT07720882",
+    "title": "A Clinical Study of a Fully Implanted, Wireless and Functional BCI for Upper-Limb Functional Replacement in Tetraplegia Due to Spinal Cord Injury: Efficacy and Safety",
+    "program": "academic-other",
+    "sponsor": "NeuroXess Technology (shanghai) Co.,Ltd.",
+    "status": "RECRUITING",
+    "enrollment": 32,
+    "enrollment_type": "ESTIMATED",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('Brain-Computer Interface', 'Implanted, Wireless and Functional BCI')",
+    "start_date": "2026-07-07",
+    "primary_completion_date": "2027-01-30",
+    "completion_date": "2027-04-30",
+    "countries": [
+      "China"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT07720882",
+    "last_update": "2026-07-22"
+  },
+  {
+    "nct_id": "NCT05724173",
+    "title": "Feasibility of the BrainGate2 Neural Interface System in Persons With Tetraplegia",
+    "program": "braingate",
+    "sponsor": "Leigh R. Hochberg, MD, PhD.",
+    "status": "RECRUITING",
+    "enrollment": 3,
+    "enrollment_type": "ESTIMATED",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('BrainGate', 'BrainGate')",
+    "start_date": "2023-10-18",
+    "primary_completion_date": "2027-07-31",
+    "completion_date": "2027-07-31",
+    "countries": [
+      "United States"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT05724173",
+    "last_update": "2026-06-02"
+  },
+  {
+    "nct_id": "NCT02224469",
+    "title": "First Study With a Brain Implant to Help Locked-in Patients Communicate at Home",
+    "program": "academic-other",
+    "sponsor": "UMC Utrecht",
+    "status": "COMPLETED",
+    "enrollment": 6,
+    "enrollment_type": "ACTUAL",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('Brain-Computer Interface', 'electrocorticography')",
+    "start_date": "2015-09-09",
+    "primary_completion_date": "2024-02-14",
+    "completion_date": "2024-02-14",
+    "countries": [
+      "Netherlands"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT02224469",
+    "last_update": "2025-12-03"
+  },
+  {
+    "nct_id": "NCT07791459",
+    "title": "BrainGate2: Feasibility Study of an Intracortical Neural Interface System for Persons With Aphasia",
+    "program": "braingate",
+    "sponsor": "Leigh R. Hochberg, MD, PhD.",
+    "status": "NOT_YET_RECRUITING",
+    "enrollment": 5,
+    "enrollment_type": "ESTIMATED",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('Brain-Computer Interface', 'Intracortical Neural')",
+    "start_date": "2026-08",
+    "primary_completion_date": "2038-09",
+    "completion_date": "2038-12",
+    "countries": [],
+    "url": "https://clinicaltrials.gov/study/NCT07791459",
+    "last_update": "2026-08-31"
+  },
+  {
+    "nct_id": "NCT03161067",
+    "title": "Investigation on the Bidirectional Cortical Neuroprosthetic System",
+    "program": "academic-other",
+    "sponsor": "Johns Hopkins University",
+    "status": "RECRUITING",
+    "enrollment": 5,
+    "enrollment_type": "ESTIMATED",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('Brain Computer Interface', 'Intracortical Microstimulation')",
+    "start_date": "2017-08-01",
+    "primary_completion_date": "2028-12-31",
+    "completion_date": "2030-12-31",
+    "countries": [
+      "United States"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT03161067",
+    "last_update": "2026-08-21"
+  },
+  {
+    "nct_id": "NCT07610850",
+    "title": "Brain-controlled Spinal Cord Stimulation in Participants With Chronic Stroke for Lower and Upper Limb Rehabilitation",
+    "program": "onward",
+    "sponsor": "Ecole Polytechnique Fédérale de Lausanne",
+    "status": "RECRUITING",
+    "enrollment": 3,
+    "enrollment_type": "ESTIMATED",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('Brain computer interface', 'ECoG')",
+    "start_date": "2026-09-01",
+    "primary_completion_date": "2028-10",
+    "completion_date": "2032-10",
+    "countries": [
+      "Switzerland"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT07610850",
+    "last_update": "2026-06-08"
+  },
+  {
+    "nct_id": "NCT03567213",
+    "title": "Investigation on the Cortical Communication (CortiCom) System",
+    "program": "academic-other",
+    "sponsor": "Johns Hopkins University",
+    "status": "RECRUITING",
+    "enrollment": 3,
+    "enrollment_type": "ESTIMATED",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('Brain Computer Interface', 'NeuroPort')",
+    "start_date": "2021-12-14",
+    "primary_completion_date": "2028-12-31",
+    "completion_date": "2030-12-31",
+    "countries": [
+      "United States"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT03567213",
+    "last_update": "2026-08-21"
+  },
+  {
+    "nct_id": "NCT06700304",
+    "title": "CAN-PRIME: Precise Robotically Implanted Brain-Computer Interface for the Control of External Devices",
+    "program": "neuralink",
+    "sponsor": "Neuralink Corp",
+    "status": "RECRUITING",
+    "enrollment": 6,
+    "enrollment_type": "ESTIMATED",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('Brain-Computer Interface', 'Neuralink')",
+    "start_date": "2024-11-20",
+    "primary_completion_date": "2027-11-30",
+    "completion_date": "2030-11-30",
+    "countries": [
+      "Canada"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT06700304",
+    "last_update": "2025-05-31"
+  },
+  {
+    "nct_id": "NCT06673264",
+    "title": "First-In-human Trial of a NovEl Soft and Stretchable Neural probE",
+    "program": "axoft",
+    "sponsor": "Axoft, Inc.",
+    "status": "COMPLETED",
+    "enrollment": 5,
+    "enrollment_type": "ACTUAL",
+    "duration": "acute",
+    "in_scope": true,
+    "reason": "Implanted BCI, temporary ('already scheduled')",
+    "start_date": "2025-03-14",
+    "primary_completion_date": "2025-08-21",
+    "completion_date": "2025-08-21",
+    "countries": [
+      "Panama"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT06673264",
+    "last_update": "2025-09-18"
+  },
+  {
+    "nct_id": "NCT07603752",
+    "title": "Implantable Wireless Brain-Machine Interface System for Spinal Cord Injury: Efficacy and Safety Study",
+    "program": "stairmed",
+    "sponsor": "Shanghai StairMed Technology Co., Ltd.",
+    "status": "RECRUITING",
+    "enrollment": 34,
+    "enrollment_type": "ESTIMATED",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('Brain-Machine Interface', 'Implantable Wireless Brain-Machine Interface')",
+    "start_date": "2026-04-28",
+    "primary_completion_date": "2027-01-31",
+    "completion_date": "2027-06-30",
+    "countries": [
+      "China"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT07603752",
+    "last_update": "2026-05-22"
+  },
+  {
+    "nct_id": "NCT03913286",
+    "title": "Neuromotor Prosthetic to Treat Stroke-Related Paresis",
+    "program": "academic-other",
+    "sponsor": "Thomas Jefferson University",
+    "status": "COMPLETED",
+    "enrollment": 1,
+    "enrollment_type": "ACTUAL",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('brain computer interface', 'Utah array')",
+    "start_date": "2019-05-01",
+    "primary_completion_date": "2023-12-01",
+    "completion_date": "2024-07-01",
+    "countries": [
+      "United States"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT03913286",
+    "last_update": "2025-04-16"
+  },
+  {
+    "nct_id": "NCT06990412",
+    "title": "A Clinical Trial to Evaluate the Safety and Efficacy of an Implantable Wireless Brain-Computer Interface（BCI）System NEO in Patients With Tetraplegia",
+    "program": "neuracle",
+    "sponsor": "Neuracle Medical Technology(Shanghai) Co.,Ltd.",
+    "status": "COMPLETED",
+    "enrollment": 32,
+    "enrollment_type": "ACTUAL",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('Brain-Computer Interface', 'Minimally Invasive Wireless Implantable Brain')",
+    "start_date": "2025-05-28",
+    "primary_completion_date": "2025-11-06",
+    "completion_date": "2026-01-10",
+    "countries": [
+      "China"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT06990412",
+    "last_update": "2026-08-25"
+  },
+  {
+    "nct_id": "NCT05470478",
+    "title": "iBCI Optimization for Veterans With Paralysis",
+    "program": "academic-other",
+    "sponsor": "VA Office of Research and Development",
+    "status": "NOT_YET_RECRUITING",
+    "enrollment": 2,
+    "enrollment_type": "ESTIMATED",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('brain-computer interface', 'iBCI')",
+    "start_date": "2026-10-02",
+    "primary_completion_date": "2027-06-30",
+    "completion_date": "2027-06-30",
+    "countries": [
+      "United States"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT05470478",
+    "last_update": "2026-07-27"
+  },
+  {
+    "nct_id": "NCT06944834",
+    "title": "A Study on the Safety and Functionality of the Implantable Wireless Brain-Computer Interfaces for Motor Rehabilitation",
+    "program": "stairmed",
+    "sponsor": "Shanghai StairMed Technology Co., Ltd.",
+    "status": "NOT_YET_RECRUITING",
+    "enrollment": 5,
+    "enrollment_type": "ESTIMATED",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('Brain-Computer Interfaces', 'Implantable Wireless Brain-Computer Interfaces')",
+    "start_date": "2025-04",
+    "primary_completion_date": "2027-04",
+    "completion_date": "2027-04",
+    "countries": [
+      "China"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT06944834",
+    "last_update": "2025-04-25"
+  },
+  {
+    "nct_id": "NCT04576650",
+    "title": "Brain-Computer Interface Implant for Severe Communication Disability",
+    "program": "academic-other",
+    "sponsor": "Johns Hopkins University",
+    "status": "WITHDRAWN",
+    "enrollment": 0,
+    "enrollment_type": "ACTUAL",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('Brain-Computer Interface', 'electrocorticographic')",
+    "start_date": "2022-10",
+    "primary_completion_date": "2023-10",
+    "completion_date": "2023-10",
+    "countries": [
+      "United States"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT04576650",
+    "last_update": "2022-11-07"
+  },
+  {
+    "nct_id": "NCT05665998",
+    "title": "Brain Controlled Spinal Cord Stimulation in Participants With Cervical Spinal Cord Injury for Upper Limb Rehabilitation",
+    "program": "onward",
+    "sponsor": "Ecole Polytechnique Fédérale de Lausanne",
+    "status": "RECRUITING",
+    "enrollment": 3,
+    "enrollment_type": "ESTIMATED",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('Brain computer interface', 'electrocorticography')",
+    "start_date": "2023-05-22",
+    "primary_completion_date": "2026-12-31",
+    "completion_date": "2026-12-31",
+    "countries": [
+      "Switzerland"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT05665998",
+    "last_update": "2026-04-23"
+  },
+  {
+    "nct_id": "NCT06094205",
+    "title": "Feasibility of the BrainGate2 Neural Interface System in Persons With Tetraplegia (BG-Speech-02)",
+    "program": "braingate",
+    "sponsor": "Leigh R. Hochberg, MD, PhD.",
+    "status": "RECRUITING",
+    "enrollment": 2,
+    "enrollment_type": "ESTIMATED",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('Brain-computer Interface', 'iBCIs')",
+    "start_date": "2023-10-16",
+    "primary_completion_date": "2027-08-31",
+    "completion_date": "2027-08-31",
+    "countries": [
+      "United States"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT06094205",
+    "last_update": "2025-12-01"
+  },
+  {
+    "nct_id": "NCT01964261",
+    "title": "Sensory Motor Transformations in Human Cortex",
+    "program": "academic-other",
+    "sponsor": "Richard A. Andersen, PhD",
+    "status": "RECRUITING",
+    "enrollment": 5,
+    "enrollment_type": "ESTIMATED",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('brain-machine interface', 'Intracortical Microstimulation')",
+    "start_date": "2013-11-01",
+    "primary_completion_date": "2026-07-31",
+    "completion_date": "2027-01-31",
+    "countries": [
+      "United States"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT01964261",
+    "last_update": "2025-05-22"
+  },
+  {
+    "nct_id": "NCT05035823",
+    "title": "COMMAND Early Feasibility Study: Implantable BCI to Control a Digital Device for People With Paralysis",
+    "program": "synchron",
+    "sponsor": "Synchron Medical, Inc.",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "enrollment": 6,
+    "enrollment_type": "ACTUAL",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('brain computer interface', 'Implantable BCI')",
+    "start_date": "2022-04-27",
+    "primary_completion_date": "2024-09-19",
+    "completion_date": "2028-09",
+    "countries": [
+      "United States"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT05035823",
+    "last_update": "2026-09-08"
+  },
+  {
+    "nct_id": "NCT07357428",
+    "title": "Connect-One: Early Feasibility Study of Connexus® Brain-Computer Interface (BCI)",
+    "program": "paradromics",
+    "sponsor": "Paradromics",
+    "status": "RECRUITING",
+    "enrollment": 2,
+    "enrollment_type": "ESTIMATED",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('Brain-Computer Interface', 'Connexus')",
+    "start_date": "2026-03-31",
+    "primary_completion_date": "2027-05",
+    "completion_date": "2032-01",
+    "countries": [
+      "United States"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT07357428",
+    "last_update": "2026-04-14"
+  },
+  {
+    "nct_id": "NCT01393444",
+    "title": "ECoG Direct Brain Interface for Individuals With Upper Limb Paralysis",
+    "program": "academic-other",
+    "sponsor": "University of Pittsburgh",
+    "status": "COMPLETED",
+    "enrollment": 6,
+    "enrollment_type": "ACTUAL",
+    "duration": "acute",
+    "in_scope": true,
+    "reason": "Implanted BCI, temporary ('up to 29 days')",
+    "start_date": "2011-05",
+    "primary_completion_date": "2015-04",
+    "completion_date": "2015-04",
+    "countries": [
+      "United States"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT01393444",
+    "last_update": "2016-12-12"
+  },
+  {
+    "nct_id": "NCT07446114",
+    "title": "Functional Outcomes and Control Using Synchron BCI - Canada",
+    "program": "synchron",
+    "sponsor": "Synchron, Inc.",
+    "status": "RECRUITING",
+    "enrollment": 10,
+    "enrollment_type": "ESTIMATED",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('Brain computer interface', 'Stentrode')",
+    "start_date": "2026-03-18",
+    "primary_completion_date": "2026-12",
+    "completion_date": "2027-07",
+    "countries": [
+      "Canada"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT07446114",
+    "last_update": "2026-04-17"
+  },
+  {
+    "nct_id": "NCT07647315",
+    "title": "Wireless Implantable Mandarin Chinese Speech Neuroprosthesis Evaluation",
+    "program": "stairmed",
+    "sponsor": "Shanghai StairMed Technology Co., Ltd.",
+    "status": "RECRUITING",
+    "enrollment": 4,
+    "enrollment_type": "ESTIMATED",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('brain-computer interface', 'implantable wireless brain-computer interface')",
+    "start_date": "2026-09-01",
+    "primary_completion_date": "2028-08-30",
+    "completion_date": "2028-12-30",
+    "countries": [
+      "China"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT07647315",
+    "last_update": "2026-09-11"
+  },
+  {
+    "nct_id": "NCT06207591",
+    "title": "Investigation on the Cortical Communication System",
+    "program": "academic-other",
+    "sponsor": "UMC Utrecht",
+    "status": "RECRUITING",
+    "enrollment": 2,
+    "enrollment_type": "ESTIMATED",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('Brain-Computer interface', 'electrocorticography')",
+    "start_date": "2023-12-15",
+    "primary_completion_date": "2028-09",
+    "completion_date": "2029-09",
+    "countries": [
+      "Netherlands"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT06207591",
+    "last_update": "2025-10-03"
+  },
+  {
+    "nct_id": "NCT07110688",
+    "title": "Novel Multimodal Neural, Physiological, and Behavioral Sensing and Machine Learning for Mental States",
+    "program": "academic-other",
+    "sponsor": "University of Southern California",
+    "status": "RECRUITING",
+    "enrollment": 90,
+    "enrollment_type": "ESTIMATED",
+    "duration": "acute",
+    "in_scope": true,
+    "reason": "Implanted BCI, temporary ('intracranial EEG')",
+    "start_date": "2024-08-01",
+    "primary_completion_date": "2028-11-30",
+    "completion_date": "2028-11-30",
+    "countries": [
+      "United States"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT07110688",
+    "last_update": "2025-10-01"
+  },
+  {
+    "nct_id": "NCT07640711",
+    "title": "Innovative Brain-Computer Interface for People With Spinal Cord Injury",
+    "program": "academic-other",
+    "sponsor": "UMC Utrecht",
+    "status": "RECRUITING",
+    "enrollment": 1,
+    "enrollment_type": "ESTIMATED",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('Brain-Computer Interface', 'electrocorticography')",
+    "start_date": "2026-08",
+    "primary_completion_date": "2027-08",
+    "completion_date": "2028-08",
+    "countries": [
+      "Netherlands"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT07640711",
+    "last_update": "2026-06-11"
+  },
+  {
+    "nct_id": "NCT02932839",
+    "title": "Investigating the Neuronal Bases of Epilepsy With Micro-electrode Arrays in Candidates for Epilepsy Surgery",
+    "program": "blackrock",
+    "sponsor": "Wyss Center for Bio and Neuroengineering",
+    "status": "COMPLETED",
+    "enrollment": 3,
+    "enrollment_type": "ACTUAL",
+    "duration": "acute",
+    "in_scope": true,
+    "reason": "Implanted BCI, temporary ('intracranial EEG')",
+    "start_date": "2017-12-28",
+    "primary_completion_date": "2019-12-20",
+    "completion_date": "2019-12-20",
+    "countries": [
+      "Switzerland"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT02932839",
+    "last_update": "2021-06-02"
+  },
+  {
+    "nct_id": "NCT02564419",
+    "title": "Brain Machine Interface (BMI) in Subjects Living With Quadriplegia",
+    "program": "academic-other",
+    "sponsor": "Jonathan Jagid",
+    "status": "COMPLETED",
+    "enrollment": 1,
+    "enrollment_type": "ACTUAL",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('Brain Machine Interface', 'subdural strip')",
+    "start_date": "2015-11",
+    "primary_completion_date": "2019-11-30",
+    "completion_date": "2019-11-30",
+    "countries": [
+      "United States"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT02564419",
+    "last_update": "2020-09-18"
+  },
+  {
+    "nct_id": "NCT03482310",
+    "title": "Restoring High Dimensional Hand Function to Persons With Chronic High Tetraplegia",
+    "program": "blackrock",
+    "sponsor": "VA Office of Research and Development",
+    "status": "COMPLETED",
+    "enrollment": 1,
+    "enrollment_type": "ACTUAL",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('Brain computer interface', 'Neuroport')",
+    "start_date": "2018-06-01",
+    "primary_completion_date": "2023-09-30",
+    "completion_date": "2023-09-30",
+    "countries": [
+      "United States"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT03482310",
+    "last_update": "2026-02-20"
+  },
+  {
+    "nct_id": "NCT05920174",
+    "title": "Clinical Trial to Evaluate the Safety and Efficacy of an Implantable Neural Acquisitor & Stimulator System in Patients With Motor Disability",
+    "program": "neuracle",
+    "sponsor": "Neuracle Medical Technology(Shanghai) Co.,Ltd.",
+    "status": "RECRUITING",
+    "enrollment": 9,
+    "enrollment_type": "ESTIMATED",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('brain-computer interface', 'Implantable Neural Acquisitor')",
+    "start_date": "2023-10-17",
+    "primary_completion_date": "2024-12",
+    "completion_date": "2025-12",
+    "countries": [
+      "China"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT05920174",
+    "last_update": "2024-12-05"
+  },
+  {
+    "nct_id": "NCT01364480",
+    "title": "Microelectrode Brain-Machine Interface for Individuals With Tetraplegia",
+    "program": "blackrock",
+    "sponsor": "Michael Boninger",
+    "status": "TERMINATED",
+    "enrollment": 1,
+    "enrollment_type": "ACTUAL",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('Brain-Machine Interface', 'NeuroPort')",
+    "start_date": "2011-05-01",
+    "primary_completion_date": "2022-11-26",
+    "completion_date": "2022-11-26",
+    "countries": [
+      "United States"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT01364480",
+    "last_update": "2024-01-09"
+  },
+  {
+    "nct_id": "NCT06533969",
+    "title": "Assessment of Neural Signals for the Control of Assistive Devices",
+    "program": "academic-other",
+    "sponsor": "University of Miami",
+    "status": "RECRUITING",
+    "enrollment": 3,
+    "enrollment_type": "ESTIMATED",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('brain-computer interface', 'Electrocorticographic')",
+    "start_date": "2024-09-06",
+    "primary_completion_date": "2027-12-31",
+    "completion_date": "2027-12-31",
+    "countries": [
+      "United States"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT06533969",
+    "last_update": "2026-08-26"
+  },
+  {
+    "nct_id": "NCT06940089",
+    "title": "Invasive Brain-Computer Interfaces for Attention",
+    "program": "academic-other",
+    "sponsor": "University of Texas at Austin",
+    "status": "WITHDRAWN",
+    "enrollment": 0,
+    "enrollment_type": "ACTUAL",
+    "duration": "acute",
+    "in_scope": true,
+    "reason": "Implanted BCI, temporary ('epilepsy surgery')",
+    "start_date": "2025-05-01",
+    "primary_completion_date": "2026-04-01",
+    "completion_date": "2026-12-01",
+    "countries": [
+      "United States"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT06940089",
+    "last_update": "2026-05-01"
+  },
+  {
+    "nct_id": "NCT03100110",
+    "title": "NeuroCognitive Communicator: Safety Study",
+    "program": "academic-other",
+    "sponsor": "Ottawa Hospital Research Institute",
+    "status": "UNKNOWN",
+    "enrollment": 2,
+    "enrollment_type": "ESTIMATED",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('brain-computer interface', 'microelectrode array')",
+    "start_date": "2019-05-13",
+    "primary_completion_date": "2024-04-15",
+    "completion_date": "2024-04-15",
+    "countries": [
+      "Canada"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT03100110",
+    "last_update": "2022-08-01"
+  },
+  {
+    "nct_id": "NCT07465796",
+    "title": "A First-in-Human Study of the CIPHER System During Brain Surgery for Newly Diagnosed Glioma",
+    "program": "academic-other",
+    "sponsor": "Coherence Neuro Australia Pty Limited",
+    "status": "RECRUITING",
+    "enrollment": 10,
+    "enrollment_type": "ESTIMATED",
+    "duration": "acute",
+    "in_scope": true,
+    "reason": "Implanted BCI, temporary ('Intraoperative')",
+    "start_date": "2026-05-22",
+    "primary_completion_date": "2026-09",
+    "completion_date": "2026-09",
+    "countries": [
+      "Australia"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT07465796",
+    "last_update": "2026-06-03"
+  },
+  {
+    "nct_id": "NCT06939660",
+    "title": "BCI-Assisted SCS-EXS for Gait Optimization",
+    "program": "academic-other",
+    "sponsor": "Xuanwu Hospital, Beijing",
+    "status": "RECRUITING",
+    "enrollment": 3,
+    "enrollment_type": "ESTIMATED",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('Brain-machine Interfaces', 'ECoG')",
+    "start_date": "2025-04-23",
+    "primary_completion_date": "2026-05-01",
+    "completion_date": "2027-04-30",
+    "countries": [
+      "China"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT06939660",
+    "last_update": "2025-05-20"
+  },
+  {
+    "nct_id": "NCT07477613",
+    "title": "Implantable Brain-Computer Interface for Upper-Limb Recovery After Stroke",
+    "program": "academic-other",
+    "sponsor": "University Hospital, Grenoble",
+    "status": "RECRUITING",
+    "enrollment": 10,
+    "enrollment_type": "ESTIMATED",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('Brain-Computer Interface', 'WIMAGINE')",
+    "start_date": "2026-04-08",
+    "primary_completion_date": "2029-04-08",
+    "completion_date": "2031-04-08",
+    "countries": [
+      "France"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT07477613",
+    "last_update": "2026-07-07"
+  },
+  {
+    "nct_id": "NCT07457645",
+    "title": "Safety and Efficacy of High-Channel Implanted BCI for Motor Function Improvement in Tetraplegia Patients",
+    "program": "academic-other",
+    "sponsor": "Shanghai Zhongshan Hospital",
+    "status": "NOT_YET_RECRUITING",
+    "enrollment": 10,
+    "enrollment_type": "ESTIMATED",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('Brain-Computer Interface', 'intracranial electrode')",
+    "start_date": "2026-05-15",
+    "primary_completion_date": "2028-07-15",
+    "completion_date": "2028-10-15",
+    "countries": [
+      "China"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT07457645",
+    "last_update": "2026-04-28"
+  },
+  {
+    "nct_id": "NCT07543367",
+    "title": "INdependence Through Endovascular Neuroprosthetic Technology (INTENT): an Early Feasibility Study",
+    "program": "synchron",
+    "sponsor": "Synchron, Inc.",
+    "status": "RECRUITING",
+    "enrollment": 10,
+    "enrollment_type": "ESTIMATED",
+    "duration": "chronic",
+    "in_scope": true,
+    "reason": "Implanted BCI ('Stentrode', 'Stentrode')",
+    "start_date": "2026-04",
+    "primary_completion_date": "2027-06",
+    "completion_date": "2029-12",
+    "countries": [
+      "United States"
+    ],
+    "url": "https://clinicaltrials.gov/study/NCT07543367",
+    "last_update": "2026-05-11"
+  }
+]
