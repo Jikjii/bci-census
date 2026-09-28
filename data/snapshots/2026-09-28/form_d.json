@@ -1,0 +1,490 @@
+[
+  {
+    "id": "0001708503-25-000003",
+    "program": "neuralink",
+    "cik": "0001708503",
+    "company": "Neuralink Corp.",
+    "form": "D",
+    "filing_date": "2025-06-12",
+    "date_of_first_sale": "2025-05-30",
+    "total_offering_amount": 649000093.0,
+    "total_amount_sold": 649000093.0,
+    "total_remaining": 0.0,
+    "investors_count": 49,
+    "security_types": [
+      "equity"
+    ],
+    "url": "https://www.sec.gov/Archives/edgar/data/1708503/000170850325000003/0001708503-25-000003-index.htm"
+  },
+  {
+    "id": "0001708503-23-000002",
+    "program": "neuralink",
+    "cik": "0001708503",
+    "company": "Neuralink Corp.",
+    "form": "D/A",
+    "filing_date": "2023-11-22",
+    "date_of_first_sale": "2023-08-04",
+    "total_offering_amount": 323241676.0,
+    "total_amount_sold": 323241676.0,
+    "total_remaining": 0.0,
+    "investors_count": 32,
+    "security_types": [
+      "equity"
+    ],
+    "url": "https://www.sec.gov/Archives/edgar/data/1708503/000170850323000002/0001708503-23-000002-index.htm"
+  },
+  {
+    "id": "0001708503-23-000001",
+    "program": "neuralink",
+    "cik": "0001708503",
+    "company": "Neuralink Corp.",
+    "form": "D",
+    "filing_date": "2023-08-08",
+    "date_of_first_sale": "2023-08-04",
+    "total_offering_amount": 280274981.0,
+    "total_amount_sold": 280274981.0,
+    "total_remaining": 0.0,
+    "investors_count": 24,
+    "security_types": [
+      "equity"
+    ],
+    "url": "https://www.sec.gov/Archives/edgar/data/1708503/000170850323000001/0001708503-23-000001-index.htm"
+  },
+  {
+    "id": "0001708503-21-000002",
+    "program": "neuralink",
+    "cik": "0001708503",
+    "company": "Neuralink Corp.",
+    "form": "D",
+    "filing_date": "2021-08-04",
+    "date_of_first_sale": "2021-07-23",
+    "total_offering_amount": 205899985.0,
+    "total_amount_sold": 205899985.0,
+    "total_remaining": 0.0,
+    "investors_count": 32,
+    "security_types": [
+      "equity"
+    ],
+    "url": "https://www.sec.gov/Archives/edgar/data/1708503/000170850321000002/0001708503-21-000002-index.htm"
+  },
+  {
+    "id": "0001708503-19-000001",
+    "program": "neuralink",
+    "cik": "0001708503",
+    "company": "Neuralink Corp.",
+    "form": "D",
+    "filing_date": "2019-05-10",
+    "date_of_first_sale": "2019-04-26",
+    "total_offering_amount": 51312497.0,
+    "total_amount_sold": 39312497.0,
+    "total_remaining": 12000000.0,
+    "investors_count": 7,
+    "security_types": [
+      "equity"
+    ],
+    "url": "https://www.sec.gov/Archives/edgar/data/1708503/000170850319000001/0001708503-19-000001-index.htm"
+  },
+  {
+    "id": "0001708503-17-000001",
+    "program": "neuralink",
+    "cik": "0001708503",
+    "company": "Neuralink Corp.",
+    "form": "D",
+    "filing_date": "2017-08-25",
+    "date_of_first_sale": "2017-08-15",
+    "total_offering_amount": 100155000.0,
+    "total_amount_sold": 26958000.0,
+    "total_remaining": 73197000.0,
+    "investors_count": 12,
+    "security_types": [
+      "equity"
+    ],
+    "url": "https://www.sec.gov/Archives/edgar/data/1708503/000170850317000001/0001708503-17-000001-index.htm"
+  },
+  {
+    "id": "0001864980-22-000002",
+    "program": "synchron",
+    "cik": "0001864980",
+    "company": "Synchron, Inc.",
+    "form": "D/A",
+    "filing_date": "2022-12-20",
+    "date_of_first_sale": "2022-11-07",
+    "total_offering_amount": 86000000.0,
+    "total_amount_sold": 72287927.0,
+    "total_remaining": 13712073.0,
+    "investors_count": 22,
+    "security_types": [
+      "equity",
+      "optiontoacquire"
+    ],
+    "url": "https://www.sec.gov/Archives/edgar/data/1864980/000186498022000002/0001864980-22-000002-index.htm"
+  },
+  {
+    "id": "0001864980-22-000001",
+    "program": "synchron",
+    "cik": "0001864980",
+    "company": "Synchron, Inc.",
+    "form": "D",
+    "filing_date": "2022-12-20",
+    "date_of_first_sale": "2022-11-07",
+    "total_offering_amount": 86000000.0,
+    "total_amount_sold": 49902952.0,
+    "total_remaining": 36097048.0,
+    "investors_count": 22,
+    "security_types": [
+      "equity",
+      "optiontoacquire"
+    ],
+    "url": "https://www.sec.gov/Archives/edgar/data/1864980/000186498022000001/0001864980-22-000001-index.htm"
+  },
+  {
+    "id": "0001864980-21-000001",
+    "program": "synchron",
+    "cik": "0001864980",
+    "company": "Synchron, Inc.",
+    "form": "D",
+    "filing_date": "2021-05-28",
+    "date_of_first_sale": "2021-05-14",
+    "total_offering_amount": 38873462.0,
+    "total_amount_sold": 32573331.0,
+    "total_remaining": 6300131.0,
+    "investors_count": 14,
+    "security_types": [
+      "equity"
+    ],
+    "url": "https://www.sec.gov/Archives/edgar/data/1864980/000186498021000001/0001864980-21-000001-index.htm"
+  },
+  {
+    "id": "0001934598-23-000003",
+    "program": "paradromics",
+    "cik": "0001668302",
+    "company": "Paradromics, Inc.",
+    "form": "D/A",
+    "filing_date": "2023-11-07",
+    "date_of_first_sale": "2023-03-21",
+    "total_offering_amount": 51012815.0,
+    "total_amount_sold": 50141276.0,
+    "total_remaining": 871539.0,
+    "investors_count": 53,
+    "security_types": [
+      "equity"
+    ],
+    "url": "https://www.sec.gov/Archives/edgar/data/1668302/000193459823000003/0001934598-23-000003-index.htm"
+  },
+  {
+    "id": "0001668302-23-000001",
+    "program": "paradromics",
+    "cik": "0001668302",
+    "company": "Paradromics, Inc.",
+    "form": "D",
+    "filing_date": "2023-04-05",
+    "date_of_first_sale": "2023-03-21",
+    "total_offering_amount": 34554727.0,
+    "total_amount_sold": 33012815.0,
+    "total_remaining": 1541912.0,
+    "investors_count": 44,
+    "security_types": [
+      "equity"
+    ],
+    "url": "https://www.sec.gov/Archives/edgar/data/1668302/000166830223000001/0001668302-23-000001-index.htm"
+  },
+  {
+    "id": "0001668302-22-000002",
+    "program": "paradromics",
+    "cik": "0001668302",
+    "company": "Paradromics, Inc.",
+    "form": "D",
+    "filing_date": "2022-09-21",
+    "date_of_first_sale": "2022-02-17",
+    "total_offering_amount": 8864853.0,
+    "total_amount_sold": 8864853.0,
+    "total_remaining": 0.0,
+    "investors_count": 9,
+    "security_types": [
+      "equity",
+      "debt"
+    ],
+    "url": "https://www.sec.gov/Archives/edgar/data/1668302/000166830222000002/0001668302-22-000002-index.htm"
+  },
+  {
+    "id": "0001668302-21-000003",
+    "program": "paradromics",
+    "cik": "0001668302",
+    "company": "Paradromics, Inc.",
+    "form": "D/A",
+    "filing_date": "2021-10-19",
+    "date_of_first_sale": "2021-01-15",
+    "total_offering_amount": 28230600.0,
+    "total_amount_sold": 28230600.0,
+    "total_remaining": 0.0,
+    "investors_count": 42,
+    "security_types": [
+      "equity"
+    ],
+    "url": "https://www.sec.gov/Archives/edgar/data/1668302/000166830221000003/0001668302-21-000003-index.htm"
+  },
+  {
+    "id": "0001668302-21-000002",
+    "program": "paradromics",
+    "cik": "0001668302",
+    "company": "Paradromics, Inc.",
+    "form": "D/A",
+    "filing_date": "2021-07-23",
+    "date_of_first_sale": "2021-01-15",
+    "total_offering_amount": 20000000.0,
+    "total_amount_sold": 20000000.0,
+    "total_remaining": 0.0,
+    "investors_count": 42,
+    "security_types": [
+      "equity"
+    ],
+    "url": "https://www.sec.gov/Archives/edgar/data/1668302/000166830221000002/0001668302-21-000002-index.htm"
+  },
+  {
+    "id": "0001668302-21-000001",
+    "program": "paradromics",
+    "cik": "0001668302",
+    "company": "Paradromics, Inc.",
+    "form": "D",
+    "filing_date": "2021-02-01",
+    "date_of_first_sale": "2021-01-15",
+    "total_offering_amount": 10000000.0,
+    "total_amount_sold": 4102479.0,
+    "total_remaining": 5897521.0,
+    "investors_count": 13,
+    "security_types": [
+      "equity"
+    ],
+    "url": "https://www.sec.gov/Archives/edgar/data/1668302/000166830221000001/0001668302-21-000001-index.htm"
+  },
+  {
+    "id": "0001668302-19-000001",
+    "program": "paradromics",
+    "cik": "0001668302",
+    "company": "Paradromics, Inc.",
+    "form": "D",
+    "filing_date": "2019-04-15",
+    "date_of_first_sale": "2019-03-29",
+    "total_offering_amount": 3000000.0,
+    "total_amount_sold": 1350000.0,
+    "total_remaining": 1650000.0,
+    "investors_count": 6,
+    "security_types": [
+      "debt",
+      "optiontoacquire"
+    ],
+    "url": "https://www.sec.gov/Archives/edgar/data/1668302/000166830219000001/0001668302-19-000001-index.htm"
+  },
+  {
+    "id": "0001668302-18-000003",
+    "program": "paradromics",
+    "cik": "0001668302",
+    "company": "Paradromics, Inc.",
+    "form": "D/A",
+    "filing_date": "2018-05-22",
+    "date_of_first_sale": "2018-02-27",
+    "total_offering_amount": 7140015.0,
+    "total_amount_sold": 7140015.0,
+    "total_remaining": 0.0,
+    "investors_count": 34,
+    "security_types": [
+      "equity"
+    ],
+    "url": "https://www.sec.gov/Archives/edgar/data/1668302/000166830218000003/0001668302-18-000003-index.htm"
+  },
+  {
+    "id": "0001668302-18-000001",
+    "program": "paradromics",
+    "cik": "0001668302",
+    "company": "Paradromics, Inc.",
+    "form": "D",
+    "filing_date": "2018-03-14",
+    "date_of_first_sale": "2018-02-27",
+    "total_offering_amount": 6253501.0,
+    "total_amount_sold": 6193530.0,
+    "total_remaining": 59971.0,
+    "investors_count": 32,
+    "security_types": [
+      "equity"
+    ],
+    "url": "https://www.sec.gov/Archives/edgar/data/1668302/000166830218000001/0001668302-18-000001-index.htm"
+  },
+  {
+    "id": "0001668302-17-000001",
+    "program": "paradromics",
+    "cik": "0001668302",
+    "company": "Paradromics, Inc.",
+    "form": "D",
+    "filing_date": "2017-06-05",
+    "date_of_first_sale": "2017-05-24",
+    "total_offering_amount": 1000000.0,
+    "total_amount_sold": 175000.0,
+    "total_remaining": 825000.0,
+    "investors_count": 2,
+    "security_types": [
+      "debt",
+      "optiontoacquire",
+      "securitytobeacquired"
+    ],
+    "url": "https://www.sec.gov/Archives/edgar/data/1668302/000166830217000001/0001668302-17-000001-index.htm"
+  },
+  {
+    "id": "0001668302-16-000001",
+    "program": "paradromics",
+    "cik": "0001668302",
+    "company": "Paradromics, Inc.",
+    "form": "D",
+    "filing_date": "2016-03-01",
+    "date_of_first_sale": "2015-08-03",
+    "total_offering_amount": 1200000.0,
+    "total_amount_sold": 985000.0,
+    "total_remaining": 215000.0,
+    "investors_count": 16,
+    "security_types": [
+      "debt",
+      "optiontoacquire",
+      "securitytobeacquired"
+    ],
+    "url": "https://www.sec.gov/Archives/edgar/data/1668302/000166830216000001/0001668302-16-000001-index.htm"
+  },
+  {
+    "id": "0001123292-24-000308",
+    "program": "precision",
+    "cik": "0001858288",
+    "company": "Precision Neuroscience Corp",
+    "form": "D",
+    "filing_date": "2024-10-17",
+    "date_of_first_sale": "2024-10-02",
+    "total_offering_amount": 150000000.0,
+    "total_amount_sold": 93118915.0,
+    "total_remaining": 56881085.0,
+    "investors_count": 21,
+    "security_types": [
+      "equity",
+      "other"
+    ],
+    "url": "https://www.sec.gov/Archives/edgar/data/1858288/000112329224000308/0001123292-24-000308-index.htm"
+  },
+  {
+    "id": "0001123292-24-000099",
+    "program": "precision",
+    "cik": "0001858288",
+    "company": "Precision Neuroscience Corp",
+    "form": "D",
+    "filing_date": "2024-04-02",
+    "date_of_first_sale": "2024-03-26",
+    "total_offering_amount": 45000000.0,
+    "total_amount_sold": 27500000.0,
+    "total_remaining": 17500000.0,
+    "investors_count": 5,
+    "security_types": [
+      "other"
+    ],
+    "url": "https://www.sec.gov/Archives/edgar/data/1858288/000112329224000099/0001123292-24-000099-index.htm"
+  },
+  {
+    "id": "0001567619-23-001594",
+    "program": "precision",
+    "cik": "0001858288",
+    "company": "Precision Neuroscience Corp",
+    "form": "D/A",
+    "filing_date": "2023-02-01",
+    "date_of_first_sale": "2022-12-05",
+    "total_offering_amount": 42000000.0,
+    "total_amount_sold": 41150023.0,
+    "total_remaining": 849977.0,
+    "investors_count": 20,
+    "security_types": [
+      "equity"
+    ],
+    "url": "https://www.sec.gov/Archives/edgar/data/1858288/000156761923001594/0001567619-23-001594-index.htm"
+  },
+  {
+    "id": "0001567619-22-021752",
+    "program": "precision",
+    "cik": "0001858288",
+    "company": "Precision Neuroscience Corp",
+    "form": "D",
+    "filing_date": "2022-12-19",
+    "date_of_first_sale": "2022-12-05",
+    "total_offering_amount": 45000000.0,
+    "total_amount_sold": 34300018.0,
+    "total_remaining": 10699982.0,
+    "investors_count": 15,
+    "security_types": [
+      "equity"
+    ],
+    "url": "https://www.sec.gov/Archives/edgar/data/1858288/000156761922021752/0001567619-22-021752-index.htm"
+  },
+  {
+    "id": "0001567619-21-008653",
+    "program": "precision",
+    "cik": "0001858288",
+    "company": "Precision Neuroscience Corp",
+    "form": "D",
+    "filing_date": "2021-04-28",
+    "date_of_first_sale": "2021-04-16",
+    "total_offering_amount": 12000000.0,
+    "total_amount_sold": 10500000.0,
+    "total_remaining": 1500000.0,
+    "investors_count": 2,
+    "security_types": [
+      "equity"
+    ],
+    "url": "https://www.sec.gov/Archives/edgar/data/1858288/000156761921008653/0001567619-21-008653-index.htm"
+  },
+  {
+    "id": "0002014351-26-000003",
+    "program": "axoft",
+    "cik": "0002014351",
+    "company": "AXOFT, INC.",
+    "form": "D",
+    "filing_date": "2026-05-07",
+    "date_of_first_sale": "2026-04-22",
+    "total_offering_amount": 34245399.0,
+    "total_amount_sold": 34245380.0,
+    "total_remaining": 19.0,
+    "investors_count": 13,
+    "security_types": [
+      "equity"
+    ],
+    "url": "https://www.sec.gov/Archives/edgar/data/2014351/000201435126000003/0002014351-26-000003-index.htm"
+  },
+  {
+    "id": "0002014351-24-000002",
+    "program": "axoft",
+    "cik": "0002014351",
+    "company": "AXOFT, INC.",
+    "form": "D",
+    "filing_date": "2024-03-05",
+    "date_of_first_sale": "2022-03-18",
+    "total_offering_amount": 9275972.0,
+    "total_amount_sold": 8775976.0,
+    "total_remaining": 499996.0,
+    "investors_count": 12,
+    "security_types": [
+      "equity",
+      "securitytobeacquired"
+    ],
+    "url": "https://www.sec.gov/Archives/edgar/data/2014351/000201435124000002/0002014351-24-000002-index.htm"
+  },
+  {
+    "id": "0002014351-24-000001",
+    "program": "axoft",
+    "cik": "0002014351",
+    "company": "AXOFT, INC.",
+    "form": "D",
+    "filing_date": "2024-03-05",
+    "date_of_first_sale": "2024-02-20",
+    "total_offering_amount": 5000000.0,
+    "total_amount_sold": 500000.0,
+    "total_remaining": 4500000.0,
+    "investors_count": 1,
+    "security_types": [
+      "debt",
+      "optiontoacquire",
+      "securitytobeacquired"
+    ],
+    "url": "https://www.sec.gov/Archives/edgar/data/2014351/000201435124000001/0002014351-24-000001-index.htm"
+  }
+]

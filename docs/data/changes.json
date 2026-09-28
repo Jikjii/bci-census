@@ -1,7 +1,7 @@
 {
-  "first_run": true,
-  "since": null,
-  "floor_before": null,
+  "first_run": false,
+  "since": "2026-09-27",
+  "floor_before": 103,
   "floor_after": 103,
   "items": []
 }
