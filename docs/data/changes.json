@@ -1,7 +1,15 @@
 {
   "first_run": false,
-  "since": "2026-09-27",
+  "since": "2026-09-28",
   "floor_before": 103,
   "floor_after": 103,
-  "items": []
+  "items": [
+    {
+      "kind": "form_d",
+      "program": "precision",
+      "title": "Form D filed by Precision Neuroscience Corp",
+      "detail": "$250.0M sold, filed 2026-09-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/1858288/000112329226001327/0001123292-26-001327-index.htm"
+    }
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-28",
+  "as_of": "2026-10-05",
   "total_floor": 103,
   "programs_counted": 7,
   "acute_total": 14,
@@ -150,18 +150,18 @@
       "sourced_fact": null,
       "registry_sum": 7,
       "registry_trials": [
-        "NCT02224469",
-        "NCT03913286"
+        "NCT03913286",
+        "NCT02224469"
       ],
       "registry_detail": [
         {
-          "nct_id": "NCT02224469",
-          "count": 6,
+          "nct_id": "NCT03913286",
+          "count": 1,
           "sourced": false
         },
         {
-          "nct_id": "NCT03913286",
-          "count": 1,
+          "nct_id": "NCT02224469",
+          "count": 6,
           "sourced": false
         }
       ],
@@ -183,17 +183,17 @@
       "sourced_fact": null,
       "registry_sum": 2,
       "registry_trials": [
-        "NCT01364480",
-        "NCT03482310"
+        "NCT03482310",
+        "NCT01364480"
       ],
       "registry_detail": [
         {
-          "nct_id": "NCT01364480",
+          "nct_id": "NCT03482310",
           "count": 1,
           "sourced": false
         },
         {
-          "nct_id": "NCT03482310",
+          "nct_id": "NCT01364480",
           "count": 1,
           "sourced": false
         }
@@ -468,8 +468,8 @@
     }
   ],
   "sources": {
-    "clinicaltrials": "ok: 629 studies reviewed",
+    "clinicaltrials": "ok: 630 studies reviewed",
     "openfda": "ok: 7 decisions",
-    "edgar": "ok: 28 filings"
+    "edgar": "ok: 29 filings"
   }
 }

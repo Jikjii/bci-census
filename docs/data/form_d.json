@@ -348,6 +348,24 @@
     "url": "https://www.sec.gov/Archives/edgar/data/1668302/000166830216000001/0001668302-16-000001-index.htm"
   },
   {
+    "id": "0001123292-26-001327",
+    "program": "precision",
+    "cik": "0001858288",
+    "company": "Precision Neuroscience Corp",
+    "form": "D",
+    "filing_date": "2026-09-28",
+    "date_of_first_sale": "2026-09-11",
+    "total_offering_amount": "Indefinite",
+    "total_amount_sold": 249999984.0,
+    "total_remaining": "Indefinite",
+    "investors_count": 46,
+    "security_types": [
+      "equity",
+      "optiontoacquire"
+    ],
+    "url": "https://www.sec.gov/Archives/edgar/data/1858288/000112329226001327/0001123292-26-001327-index.htm"
+  },
+  {
     "id": "0001123292-24-000308",
     "program": "precision",
     "cik": "0001858288",
