@@ -1,7 +1,15 @@
 {
   "first_run": false,
-  "since": "2026-10-12",
+  "since": "2026-10-19",
   "floor_before": 103,
   "floor_after": 103,
-  "items": []
+  "items": [
+    {
+      "kind": "status_change",
+      "program": "academic-other",
+      "title": "NCT01964261: Sensory Motor Transformations in Human Cortex",
+      "detail": "Status: recruiting → active not recruiting",
+      "url": "https://clinicaltrials.gov/study/NCT01964261"
+    }
+  ]
 }
