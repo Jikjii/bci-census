@@ -1,0 +1,30 @@
+{
+  "counts": [
+    "axoft-2026-04-29",
+    "neucyber-2026-06-15",
+    "neuracle-2026-07-13",
+    "neuralink-2026-01-28",
+    "paradromics-2026-06-17"
+  ],
+  "regulatory": [
+    "apple-bci-hid-2025-05-13",
+    "china-15th-five-year-plan-2026-03-13",
+    "china-nhsa-billing-2025-03-12",
+    "cms-fda-rapid-2026-04-23",
+    "neucyber-registration-trial-2026-06-15",
+    "neuracle-first-commercial-2026-07-13",
+    "neuracle-nmpa-2026-03-13",
+    "neuralink-breakthrough-speech-2025-05-01",
+    "paradromics-ide-2025-11-20",
+    "precision-510k-k242618"
+  ],
+  "funding": [
+    "axoft-series-a-2026-04-29",
+    "blackrock-tether-2024-04-29",
+    "neuracle-ipo-filing-2026-06-11",
+    "neuralink-series-e-2025-06-02",
+    "precision-series-d-2026-09-24",
+    "stairmed-2026-03",
+    "synchron-series-d-2025-11-06"
+  ]
+}

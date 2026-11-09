@@ -1,0 +1,50 @@
+{
+  "first_run": false,
+  "since": "2026-11-02",
+  "floor_before": 103,
+  "floor_after": 104,
+  "items": [
+    {
+      "kind": "floor_change",
+      "program": "synchron",
+      "title": "Synchron 10 → 11",
+      "detail": "from ClinicalTrials.gov actual enrollment",
+      "url": ""
+    },
+    {
+      "kind": "status_change",
+      "program": "synchron",
+      "title": "NCT07446114: Functional Outcomes and Control Using Synchron BCI - Canada",
+      "detail": "Status: recruiting → terminated",
+      "url": "https://clinicaltrials.gov/study/NCT07446114"
+    },
+    {
+      "kind": "enrollment_change",
+      "program": "synchron",
+      "title": "NCT07446114: Functional Outcomes and Control Using Synchron BCI - Canada",
+      "detail": "Enrollment: 10 (estimated) → 1 (actual)",
+      "url": "https://clinicaltrials.gov/study/NCT07446114"
+    },
+    {
+      "kind": "new_trial",
+      "program": "braingate",
+      "title": "NCT07918768: Restoring Speech With an Intracortical Neuroprosthesis for Post-Stroke Agrammatic Aphasia (BG-Aphasia-02)",
+      "detail": "New chronic BCI trial, not yet recruiting",
+      "url": "https://clinicaltrials.gov/study/NCT07918768"
+    },
+    {
+      "kind": "status_change",
+      "program": "synchron",
+      "title": "NCT07543367: INdependence Through Endovascular Neuroprosthetic Technology (INTENT): an Early Feasibility Study",
+      "detail": "Status: recruiting → active not recruiting",
+      "url": "https://clinicaltrials.gov/study/NCT07543367"
+    },
+    {
+      "kind": "status_change",
+      "program": "synchron",
+      "title": "NCT07533903: Functional Outcomes and Control Using Synchron BCI - Australia",
+      "detail": "Status: recruiting → active not recruiting",
+      "url": "https://clinicaltrials.gov/study/NCT07533903"
+    }
+  ]
+}
