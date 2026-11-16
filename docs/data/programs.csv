@@ -1,9 +1,9 @@
 program,name,company,device,approach,hq_country,floor,basis,registry_sum,acute,trials_in_scope,trials_active
 neuracle,Neuracle,Neuracle Technology,NEO,Semi-invasive; epidural electrodes with a wireless implant,China,32,registry,32,0,2,1
 neucyber,NeuCyber,NeuCyber NeuroTech,Beinao-1,Semi-invasive; wireless implant,China,30,sourced,0,0,0,0
-neuralink,Neuralink,Neuralink Corp.,"N1 implant (""Telepathy"")",Intracortical; flexible threads placed by a surgical robot,United States,21,sourced,0,0,6,6
+neuralink,Neuralink,Neuralink Corp.,"N1 implant (""Telepathy"")",Intracortical; flexible threads placed by a surgical robot,United States,21,sourced,0,0,7,7
 synchron,Synchron,"Synchron, Inc.",Stentrode,Endovascular; electrode array delivered through a blood vessel,United States,11,registry,11,0,6,3
-academic-other,Academic and other,Universities and hospitals,Various,Various,,7,registry,7,6,30,22
+academic-other,Academic and other,Universities and hospitals,Various,Various,,7,registry,7,6,32,24
 blackrock,Blackrock arrays,Blackrock Neurotech,Utah array / NeuroPort,Intracortical microelectrode arrays,United States,2,registry,2,3,5,2
 paradromics,Paradromics,"Paradromics, Inc.",Connexus,Intracortical; high-channel-count array,United States,1,sourced,0,0,1,1
 axoft,Axoft,"Axoft, Inc.",Soft intracortical implant,Intracortical; soft polymer electrodes,United States,0,none,0,5,1,0

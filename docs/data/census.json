@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-09",
+  "as_of": "2026-11-16",
   "total_floor": 104,
   "programs_counted": 7,
   "acute_total": 14,
@@ -102,8 +102,8 @@
       "acute": 0,
       "acute_fact": null,
       "unspecified_fact": null,
-      "trials_in_scope": 6,
-      "trials_active": 6
+      "trials_in_scope": 7,
+      "trials_active": 7
     },
     {
       "program": "synchron",
@@ -156,26 +156,26 @@
       "sourced_fact": null,
       "registry_sum": 7,
       "registry_trials": [
-        "NCT02224469",
-        "NCT03913286"
+        "NCT03913286",
+        "NCT02224469"
       ],
       "registry_detail": [
         {
-          "nct_id": "NCT02224469",
-          "count": 6,
+          "nct_id": "NCT03913286",
+          "count": 1,
           "sourced": false
         },
         {
-          "nct_id": "NCT03913286",
-          "count": 1,
+          "nct_id": "NCT02224469",
+          "count": 6,
           "sourced": false
         }
       ],
       "acute": 6,
       "acute_fact": null,
       "unspecified_fact": null,
-      "trials_in_scope": 30,
-      "trials_active": 22
+      "trials_in_scope": 32,
+      "trials_active": 24
     },
     {
       "program": "blackrock",
@@ -474,7 +474,7 @@
     }
   ],
   "sources": {
-    "clinicaltrials": "ok: 642 studies reviewed",
+    "clinicaltrials": "ok: 645 studies reviewed",
     "openfda": "ok: 7 decisions",
     "edgar": "ok: 29 filings"
   }

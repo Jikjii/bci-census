@@ -1,0 +1,29 @@
+{
+  "first_run": false,
+  "since": "2026-11-09",
+  "floor_before": 104,
+  "floor_after": 104,
+  "items": [
+    {
+      "kind": "new_trial",
+      "program": "academic-other",
+      "title": "NCT07934914: Endovascular Brain-Computer Interface for Upper-Limb Paralysis",
+      "detail": "New chronic BCI trial, not yet recruiting",
+      "url": "https://clinicaltrials.gov/study/NCT07934914"
+    },
+    {
+      "kind": "new_trial",
+      "program": "academic-other",
+      "title": "NCT07933549: REstoration of Communication and LAnguage With Intracortical Microelectrodes",
+      "detail": "New chronic BCI trial, not yet recruiting",
+      "url": "https://clinicaltrials.gov/study/NCT07933549"
+    },
+    {
+      "kind": "new_trial",
+      "program": "neuralink",
+      "title": "NCT07929792: An Early Feasibility Study of a Robotically Implanted Brain-Computer Interface for Neural Control of External Devices in Spinal Cord Injury, Amyotrophic Lateral Sclerosis, and Chronic Ischemic Stroke",
+      "detail": "New chronic BCI trial, recruiting",
+      "url": "https://clinicaltrials.gov/study/NCT07929792"
+    }
+  ]
+}
